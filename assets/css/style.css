@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&family=Source+Sans+3:ital,wght@0,400;1,300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
 body {
-  font-family: 'Times New Roman', Times, serif, Helvetica, sans-serif;
+  font-family: 'Source Sans 3', sans-serif;
+  font-weight: 400;
 }

@@ -123,7 +123,7 @@ Oswald font is used for site headings and Source Sans Pro for the main body text
 ### Wireframes
 I used Adobe XD to create my wireframes. I created wireframes for mobile and desktop. I used the mobile first approach to design the site.
 #### Desktop Wireframe
-![Desktop Version](<assets/images/Desktop Version.png>)
+![Desktop Version](assets/images/Desktop-Version.webp)
 #### Mobile Wireframe
-![Mobile Version](<assets/images/Mobile Version.png>)
+![Mobile Version](assets/images/Mobile-Version.webp)
 

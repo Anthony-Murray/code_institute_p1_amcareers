@@ -1,39 +1,129 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# AM Careers
+(Developer: Anthony Murray)
 
-Welcome,
+![Mockup image] (Not Ready)
 
-This is the Code Institute student template for Codeanywhere. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+[Live webpage](Not Ready)
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **May 11th, 2023**
+This is the website for a Career Guidance Consultancy. It will provide prospective customers with details about services that I offer, my experience and encourage users to book an appointment. It is designed in an easy to navigate one-page format. 
 
-## Codeanywhere Reminders
+## Table of Contents
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+1. [Project Goals](#project-goals)
+    1. [Business Goals](#business-goals)
+    2. [User Goals](#user-goals)
+2. [User Experience](#user-experience)
+    1. [Target Audience](#target-audience)
+    2. [User Requirements and Expectations](#user-requirements-and-expectations)
+    3. [User Stories](#user-stories)
+3. [Design](#design)
+    1. [Design Choices](#design-choices)
+    2. [Colours](#colours)
+    3. [Fonts](#fonts)
+    4. [Structure](#structure)
+    5. [Wireframes](#wireframes)
+        1. [Desktop](#desktop-wireframe)
+        2. [Mobile](#mobile-wireframe)
+4. [Technologies Used](#technologies-used)
+    1. [Languages](#languages)
+    2. [Frameworks & Tools](#frameworks--tools)
+5. [Features](#features)
+    1. [Existing Features](#existing-feature)
+    2. [Features Left to Implement](#features-left-to-implement)
+6. [Testing](#testing)
+    1. [HTML Validation](#HTML-validation)
+    2. [CSS Validation](#CSS-validation)
+    3. [Accessibility](#accessibility)
+    4. [Performance](#performance)
+    5. [Device testing](#device-testing)
+    6. [Browser compatibility](#browser-compatability)
+    7. [Testing user stories](#testing-user-stories)
+8. [Bugs](#Bugs)
+9. [Deployment](#deployment)
+10. [Credits](#credits)
+11. [Acknowledgements](#acknowledgements)
 
-`python3 -m http.server`
+## Project Goals 
+The goals of this website include:
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+### Business Goals
+- Generate quality leads
+- Build brand awareness
+- Build trust in potential clients by communicating the expertise, experience and previous client succes stories of the career guidance consultant
+- Design a fast, accesible, SEO-optimised website with compelling content that answers the searcher’s query whilst focusing on the user experience to increase our organic search visibility
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+### User Goals
+- Find a career guidance consultant that they can trust
+- Understand the services provided and cost
+- Establish credibility of consultants claims and that they can deliver an excellent service
+- Contact the consultant to request more details on the services provided through multiple channels 
 
-`http_server`
+[Back to Table of Contents](#table-of-contents)
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+## User Experience
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+### Target Audience
+- Parents and guardians of teenagers / recent graduates seeking career guidance.
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+### User Requirements and Expectations
+- A professional, simple, clear design
+- Easy naviagation regardless of device
+- A responsive website
+- A website that is quick to load
+- Quality content
+- Accessible to all users 
 
-To log into the Heroku toolbelt CLI:
+### User Stories
+I have divided my user stories into prospective customers and returning customers as each of these users will have a distinct set of needs and goals.
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+#### Prospective Customers
+1. Need to understand the main purpose of the site and learn more about the consultant and see evidence of expertise.
+2. Need to be able to easily navigate the site to find relevant content quickly.
+3. Need to see a list of the services offered by the consultant so they make a decision on whether or not they can meet their needs.
+4. Need to look for evidence in the form of testimonials to understand what previous clients experience was  and if they are trusted. 
+5. Need evidence or social proof by being able to engage with social media links to see their followings on social media.
+6. Need the ability to contact the consultantto to submit queries or further informatiostion requests (without feeling like they are committing to purchasing).
+7. Need the ability to be able to schedule an appointment.
+8. Need the ability to be able to contact the consultant through multiple channels (email, phone etc.) 
+9. Need condimration that see a confirmation that my contact form has been submitted and be able to navigate back to the main site.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+#### Existing / Returning Customers
 
----
+10. As an existing customer, I want to locate the consultant's contact details or reach out to them directly through the website so I can request assistance, refer to other poptental clients, see additional services offered.
+11. As an existing customer, I need condimration that see a confirmation that my contact form has been submitted and be able to navigate back to the main site.
 
-Happy coding!
+[Back to Table of Contents](#table-of-contents)
+
+## Design
+
+### Design Choices
+I researched other careers education / consultancy websites to for inspiration focusing on find a professional, responsive and clean layouts that aligned to my own vision. I based my site design on the layout of [The Code Insititutes](https://codeinstitute.net/ie/) website. Although there are some examples of career coaching websites most (in my oponion) are pporly designed.
+
+Engaging with parents to grab their attention needs to be done quickly. The imagery used on the site was chosen to grab their attention focusing on teenagers contempleating. The hero section includes a picture of the consultant to proivide proof and early evidence that there is a face behind the brand.
+
+At the wireframing stage I decided to adopt a mobile first approach after reading this excellent article on [Browser Stack.](https://www.browserstack.com/guide/how-to-implement-mobile-first-design)
+
+### Colours
+Colour psychology plays an important role in webdesign. In choosing a colour combination I decided on blue and white on reading of the following article on [Medium.com](https://medium.com/@bloominari/color-psychology-in-web-design-f60656b8f313). Recognising the importance of having a AAA compliant palette as recommended by the WCAG I choose #1b365d as the base colour as recommended here by the [University of Sussex](http://www.sussex.ac.uk/tel/resource/tel_website/accessiblecontrast/?q=FFFFFF~003b49~1d4289~94a596~e56db1~d3273e~00bfb2~d6d2c4~ffc845~dc582a~41b6e6~1b365d~be84a3~5d3754~7da1c4~f2c75c~d0d3d4~007a78~000000)
+
+Primary Colours - Blue #1B365D  / White #FFFFFF
+Backgrounds - Light Grey #F0F0F0
+Body Text - Black #1A1A1A
+Button Hover - Dark Blue #101E39
+
+These combinations was tested using [WebAIM's Contrast Checker tool](https://webaim.org/resources/contrastchecker/). 
+
+![Colour scheme](docs/features/colour-palette.webp)
+
+### Fonts
+Oswald and Source Sans Pro were selected with the help of the [Font Pair](https://www.fontpair.co/all). 
+
+Oswald font is used for site headings and Source Sans Pro for the main body text. Both fonts use a sans-serif fallback.
+
+### Wireframes
+I used Adobe XD to create my wireframes. I created wireframes for mobile and desktop. I used the mobile first approach to design the site.
+#### Desktop Wireframe
+![Desktop Version](<assets/images/Desktop Version.png>)
+#### Mobile Wireframe
+![Mobile Version](<assets/images/Mobile Version.png>)
+

@@ -17,6 +17,13 @@ h1 {
   font-size: 2rem;
 }
 
+.global-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+
 /* Section 1 - Split Hero */
 .hero {
   background-color: #F0F0F0;

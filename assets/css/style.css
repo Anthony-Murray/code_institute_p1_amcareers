@@ -11,6 +11,28 @@ body {
   font-weight: 400;
 }
 
+h1 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 500;
+  font-size: 2rem;
+}
+
+/* Section 1 - Split Hero */
+.hero {
+  background-color: #F0F0F0;
+  }
+
+.hero-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2rem;
+  align-items: center;
+}
+
+.image img {
+  max-width: 100%;
+  height: auto;
+}
 
 /* Navigation Menu (not responsive) text clipping at 724px */
 
@@ -66,5 +88,18 @@ body {
 
   .primary-nav-links > li {
     margin: 0.05rem 0;
+  }
+}
+
+
+/* Hero Section - Responsive */
+
+@media (max-width: 700px) {
+  .hero-content {
+    grid-template-columns: 1fr;
+  }
+
+  .text {
+    text-align: center;
   }
 }

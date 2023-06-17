@@ -47,6 +47,29 @@ h1 {
   height: auto;
 }
 
+/* Section 2 - Services Content */
+
+.services {
+  background-color: #ffffff;
+}
+
+.services-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2rem;
+}
+
+.service-card {
+  background-color: #b12d2d;
+  text-align: center;
+}
+
+.service-card img {
+  max-width: 100%;
+  height: auto;
+}
+
+
 /* Navigation Menu (not responsive) text clipping at 724px */
 
 .logo img {

@@ -139,3 +139,15 @@ h1 {
     text-align: center;
   }
 }
+
+/* Services Section - Responsive (test) */
+
+@media (max-width: 700px) {
+  .services-container {
+    grid-template-columns: 1fr;
+  }
+
+  .text {
+    text-align: center;
+  }
+}

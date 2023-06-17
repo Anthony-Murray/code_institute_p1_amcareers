@@ -23,6 +23,12 @@ h1 {
   padding: 0 1rem;
 }
 
+.global-button {
+  background-color: #1B365D;
+  color: #ffffff;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
 
 /* Section 1 - Split Hero */
 .hero {

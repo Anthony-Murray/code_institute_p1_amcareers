@@ -1,111 +1,149 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="desctition"
-      content="AM Careers is a website that helps teenagers and graduates make the right career choices."
-    />
-    <meta
-      name="keywords"
-      content="AM Careers, Careers, Career, CAO, Career Guidance, Apprenticeships, Graduates"
-    />
 
-    <link rel="stylesheet" href="assets/css/style.css" />
-    <title>AM Careers</title>
-  </head>
-  <body>
-    <header>
-      <!-- Navigation bar designed using flexbox as recommmend during stand up sessions.Due to accesability issues I did will not implement a CSS only solution for a mobile hamburger menu. See the following article  Rescources researched: https://css-tricks.com/snippets/css/a-guide-to-flexbox/; https://stackoverflow.com/questions/47401222/align-logo-on-the-left-and-navigation-links-on-the-right-using-flexbox; https://codepen.io/alvarotrigo/pen/MWEJEWG; https://freshman.tech/flexbox-navbar/-->
-      <nav class="primary-nav">
-        <div class="logo">
-          <a href="index.html">
-            <img src="https://placehold.co/250x100" />
-          </a>
-        </div>
-        <ul class="primary-nav-links">
-          <li><a href="Services">Services</a></li>
-          <li><a href="How it works">How it works</a></li>
-          <li><a href="Testimonials">Testimonials</a></li>
-          <li><a href="Contact">Contact</a></li>
-        </ul>
-      </nav>
-    </header>
-    <section>
-      <!-- Hero section. Primarliy used CSS grid. Resources researched: https://www.freecodecamp.org/news/css-grid-tutorial-with-cheatsheet/ https://www.freecodecamp.org/news/how-to-make-a-landing-page-with-html-css-and-javascript/ https://www.freecodecamp.org/news/web-layouts-use-css-grid-and-flex-to-create-responsive-webpages/  -->
-      <section class="hero">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="desctition"
+    content="AM Careers is a website that helps teenagers and graduates make the right career choices." />
+  <meta name="keywords" content="AM Careers, Careers, Career, CAO, Career Guidance, Apprenticeships, Graduates" />
 
-        <!--Area not being contained. https://www.w3schools.com/css/css_max-width.asp-->
-        <div class="global-container">  
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <title>AM Careers</title>
+</head>
+
+<body>
+  <header>
+    <!-- Navigation bar designed using flexbox as recommmend during stand up sessions.Due to accesability issues I did will not implement a CSS only solution for a mobile hamburger menu. See the following article  Rescources researched: https://css-tricks.com/snippets/css/a-guide-to-flexbox/; https://stackoverflow.com/questions/47401222/align-logo-on-the-left-and-navigation-links-on-the-right-using-flexbox; https://codepen.io/alvarotrigo/pen/MWEJEWG; https://freshman.tech/flexbox-navbar/-->
+    <nav class="primary-nav">
+      <div class="logo">
+        <a href="index.html">
+          <img src="https://placehold.co/250x100" />
+        </a>
+      </div>
+      <ul class="primary-nav-links">
+        <li><a href="Services">Services</a></li>
+        <li><a href="How it works">How it works</a></li>
+        <li><a href="Testimonials">Testimonials</a></li>
+        <li><a href="Contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section>
+    <!-- Hero section. Primarliy used CSS grid. Resources researched: https://www.freecodecamp.org/news/css-grid-tutorial-with-cheatsheet/ https://www.freecodecamp.org/news/how-to-make-a-landing-page-with-html-css-and-javascript/ https://www.freecodecamp.org/news/web-layouts-use-css-grid-and-flex-to-create-responsive-webpages/  -->
+    <section class="hero">
+
+      <!--Area not being contained. https://www.w3schools.com/css/css_max-width.asp-->
+      <div class="global-container">
         <div class="hero-content">
-            <div class="image">
-              <img src="https://d3m1rm8xuevz4q.cloudfront.net/wp-content/uploads/2022/11/home_hero.jpg" alt="Picture of Anthony Murray">
-            </div>
-            <div class="text-content">
-              <h1>Career Guidance for teenagers and graduates</h1>
-              <p>Get it right first time! If you're unsure about which third level course will suit you, choosing your leaving certificate subjects or are a recent graduate unsure about how to navigate your career you've come to the right place!</p>
+          <div class="image">
+            <img src="https://d3m1rm8xuevz4q.cloudfront.net/wp-content/uploads/2022/11/home_hero.jpg"
+              alt="Picture of Anthony Murray">
+          </div>
+          <div class="text-content">
+            <h1>Career Guidance for teenagers and graduates</h1>
+            <p>Get it right first time! If you're unsure about which third level course will suit you, choosing your
+              leaving certificate subjects or are a recent graduate unsure about how to navigate your career you've come
+              to the right place!</p>
 
-              <!--Imported Fontawsome and added aria-hidden as per guidance https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-hidden-->
+            <!--Imported Fontawsome and added aria-hidden as per guidance https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-hidden-->
 
-              <ul class="icon-list">
-                <li><i class="fa-solid fa-check" aria-hidden="true" style="color: #1b365d;"></i> Fully Qualified</li>
-                <li><i class="fa-solid fa-check" aria-hidden="true" style="color: #1b365d;"></i> Over 15 years experience in Higher Education</li>
-                <li><i class="fa-solid fa-check" aria-hidden="true" style="color: #1b365d;"></i> Contact us now for your <b>FREE</b> 15 minute consultation</li>
-              </ul>
-            </div>
-            </div>
-          </div>
-        </section>
-          
-        <!--https://blog.logrocket.com/css-grid-guide/; https://css-tricks.com/look-ma-no-media-queries-responsive-layouts-using-css-grid/-->
-      
-        
-    <section class="services">
-      <div class="global-container"> <! -- Testing global-container -->
-        <h2>We're here to help! Services we offer include:</h2>
-        <div class="services-container">
-          <div class="service-card">
-            <img src="https://placehold.co/200x200" alt="Leaving Cert Students">
-            <h3>Leaving Certificate Students</h3>
-            <ul>
-              <li>CAO Applications</li>
-              <li>College Course Choice</li>
-              <li>Apprenticeships</li>
-              <li>PLC Courses</li>
+            <ul class="icon-list">
+              <li><i class="fa-solid fa-check" aria-hidden="true" style="color: #1b365d;"></i> Fully Qualified</li>
+              <li><i class="fa-solid fa-check" aria-hidden="true" style="color: #1b365d;"></i> Over 15 years experience
+                in Higher Education</li>
+              <li><i class="fa-solid fa-check" aria-hidden="true" style="color: #1b365d;"></i> Contact us now for your
+                <b>FREE</b> 15 minute consultation
+              </li>
             </ul>
-            <button class="global-button">Free 15-Min Consultation</button>
-          </div>
-          <div class="service-card">
-            <img src="https://placehold.co/200x200" alt="Graduates">
-            <h3>Transition Year Students</h3>
-            <ul>
-              <li>Choosing Leaving Cert Subjects</li>
-              <li>Early Career Exploration</li>
-              <li>Making the most of your Work Expereince</li>
-              <li>Understanding Higher Education Options</li>
-            </ul>
-            <button class ="global-button">Free 15-Min Consultation</button>
-          </div>
-          <div class="service-card">
-            <img src="https://placehold.co/200x200" alt="Graduates">
-            <h3>Graduates</h3>
-            <ul>
-              <li>CV Preparation</li>
-              <li>Interview Preparation</li>
-              <li>Job Search Strategies</li>
-              <li>Understanding your Career Options</li>
-            </ul>
-            <button class="global-button">Free 15-Min Consultation</button>
           </div>
         </div>
       </div>
     </section>
-    <section >How it works content</section>
+
+    <!--https://blog.logrocket.com/css-grid-guide/; https://css-tricks.com/look-ma-no-media-queries-responsive-layouts-using-css-grid/-->
+
+
+    <section class="services">
+      <div class="global-container">
+        <! -- Testing global-container -->
+          <h2>We're here to help! Services we offer include:</h2>
+          <div class="services-container">
+            <div class="service-card">
+              <img src="https://placehold.co/200x200" alt="Leaving Cert Students">
+              <h3>Leaving Certificate Students</h3>
+              <ul>
+                <li>CAO Applications</li>
+                <li>College Course Choice</li>
+                <li>Apprenticeships</li>
+                <li>PLC Courses</li>
+              </ul>
+              <button class="global-button">Free 15-Min Consultation</button>
+            </div>
+            <div class="service-card">
+              <img src="https://placehold.co/200x200" alt="Graduates">
+              <h3>Transition Year Students</h3>
+              <ul>
+                <li>Choosing Leaving Cert Subjects</li>
+                <li>Early Career Exploration</li>
+                <li>Making the most of your Work Expereince</li>
+                <li>Understanding Higher Education Options</li>
+              </ul>
+              <button class="global-button">Free 15-Min Consultation</button>
+            </div>
+            <div class="service-card">
+              <img src="https://placehold.co/200x200" alt="Graduates">
+              <h3>Graduates</h3>
+              <ul>
+                <li>CV Preparation</li>
+                <li>Interview Preparation</li>
+                <li>Job Search Strategies</li>
+                <li>Understanding your Career Options</li>
+              </ul>
+              <button class="global-button">Free 15-Min Consultation</button>
+            </div>
+          </div>
+      </div>
+    </section>
+
+    <!--https://blog.logrocket.com/css-grid-guide/; https://css-tricks.com/look-ma-no-media-queries-responsive-layouts-using-css-grid/-->
+
+    <section class="how-it-works">
+      <div class="global-container">
+        <h2>How it works</h2>
+        <div class="video-container">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/v4RAR_-zOhg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <div class="how-it-works-steps-container">
+          <div class="step">
+            <i class="fa-solid fa-check" aria-hidden="true" style="color: #1b365d;"></i>
+            <h3>Step 1: Online Testing</h3>
+            <p>Complete a suite of online psychometric tests.</p>
+          </div>
+          <div class="how-it-works-step">
+            <i class="fa-solid fa-check" aria-hidden="true" style="color: #1b365d;""></i>
+            <h3>Step 2: Reports circulated to both parents and students.</h3>
+            <p>Parents recieve a full report which is discussed and the student is given access to the online platform.</p>
+          </div>
+          <div class="how-it-works-step">
+            <i class="fa-solid fa-check" aria-hidden="true" style="color: #1b365d;"></i>
+            <h3>Step 3: First in person meeting with student</h3>
+            <p>1 hour meeting with the career coach to dicuss psychometric tesing, careers interest report and next steps.</p>
+          </div>
+          <div class="how-it-works-step">
+            <i class="fa-solid fa-check" aria-hidden="true" style="color: #1b365d;"></i>
+            <h3>Step 4: Follow up meeting with student and parents.</h3>
+            <p>Second meeting with student and final meeting with parents to discuss options available to the student.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <section>Testimonials content</section>
     <section>Contact content</section>
     <footer>Footer content</footer>
-  <!-- Font Awesome -->
-  <script src="https://kit.fontawesome.com/847cb20f9b.js" crossorigin="anonymous"></script>
-  </body>
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/847cb20f9b.js" crossorigin="anonymous"></script>
+</body>
+
 </html>

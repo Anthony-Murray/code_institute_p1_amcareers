@@ -55,7 +55,7 @@ h1 {
 
 .services-container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 2rem;
 }
 
@@ -80,6 +80,31 @@ h1 {
   grid-template-columns: 1fr 1fr;
   grid-gap: 2rem;
   align-items: center;
+}
+
+/* Section 4 - Testimonials */
+
+.testimonials {
+  background-color: #ffffff;
+ }
+
+.testimonials-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 2rem;
+}
+
+.testimonial {
+  text-align: center;
+}
+
+/*love running circle*/
+
+.testimonial img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 3px solid #1d4289;
 }
 
 

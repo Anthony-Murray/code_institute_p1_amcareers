@@ -69,6 +69,19 @@ h1 {
   height: auto;
 }
 
+/* Section 3 - How it works */
+
+.how-it-works {
+  background-color: #f0f0f0;
+  }
+
+.how-it-works-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2rem;
+  align-items: center;
+}
+
 
 /* Navigation Menu (not responsive) text clipping at 724px */
 

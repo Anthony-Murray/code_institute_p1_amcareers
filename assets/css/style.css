@@ -164,3 +164,15 @@ h1 {
     text-align: center;
   }
 }
+
+/* How it works - Responsive (test) */
+
+@media (max-width: 700px) {
+  .how-it-works-container {
+    grid-template-columns: 1fr;
+  }
+
+  .text {
+    text-align: center;
+  }
+}

@@ -35,6 +35,18 @@ h1 {
   cursor: pointer;
 }
 
+.services,
+.how-it-works,
+.testimonials,
+.contact-us-section {
+  margin-bottom: 2rem
+}
+
+h2 {
+  text-align: center;
+  padding: 2rem
+}
+
 /* Section 1 - Split Hero */
 .hero {
   background-color: #F0F0F0;

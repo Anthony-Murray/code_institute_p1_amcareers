@@ -119,6 +119,17 @@ h1 {
   grid-gap: 2rem;
 }
 
+/*Section 6 - Footer*/
+
+.footer {
+  background-color: #1B365D;
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 2rem;
+}
 
 /* Navigation Menu (not responsive) text clipping at 724px */
 

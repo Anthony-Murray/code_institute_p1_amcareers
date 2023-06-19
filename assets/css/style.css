@@ -9,12 +9,17 @@
 body {
   font-family: 'Source Sans 3', sans-serif;
   font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #1B365D;
+
 }
 
 h1 {
   font-family: 'Oswald', sans-serif;
   font-weight: 500;
   font-size: 2rem;
+  padding: 0.5rem 0;
 }
 
 .global-container {
@@ -60,13 +65,19 @@ h1 {
 }
 
 .service-card {
-  background-color: #b12d2d;
+  background-color: #f0f0f0;
+  padding: 1rem;
   text-align: center;
 }
 
 .service-card img {
   max-width: 100%;
   height: auto;
+}
+
+.service-card ul {
+  list-style: none;
+  padding: 0;
 }
 
 /* Section 3 - How it works */

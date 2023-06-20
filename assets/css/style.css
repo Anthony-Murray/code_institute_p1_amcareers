@@ -148,6 +148,7 @@ h2 {
 .form-container {
   background-color: #ffffff;
   padding: 2rem;
+  border: 2px solid #1B365D;
 }
 
 .form-fields label {
@@ -171,6 +172,12 @@ h2 {
   width: 100%;
 }
 
+.form-fields [type="submit"] {
+  padding: 5px 15px;
+  background: #cc0a0a;
+  border: 0 none;
+  cursor: pointer;
+}
 
 /*Section 6 - Footer*/
 

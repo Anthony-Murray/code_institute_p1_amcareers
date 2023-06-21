@@ -173,10 +173,11 @@ h2 {
 }
 
 .form-fields [type="submit"] {
-  padding: 5px 15px;
-  background: #cc0a0a;
-  border: 0 none;
+  background-color: #1B365D;
+  color: #ffffff;
+  padding: 0.5rem 1rem;
   cursor: pointer;
+  margin-top: 1rem;
 }
 
 /*Section 6 - Footer*/
@@ -189,7 +190,19 @@ h2 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 2rem;
+  justify-items: center;
+  align-items: center;
 }
+
+.footer {
+  background-color: #1B365D;
+  color: #ffffff;
+}
+
+.footer a {
+  color: #ffffff;
+}
+
 
 /* Navigation Menu (not responsive) text clipping at 724px */
 

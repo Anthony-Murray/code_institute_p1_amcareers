@@ -33,7 +33,12 @@ h1 {
   background-color: #1B365D;
   color: #ffffff;
   padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
   cursor: pointer;
+}
+
+.global-button:hover {
+  background-color: #101E39
 }
 
 .services,
@@ -67,6 +72,8 @@ h2 {
 
 /* Section 2 - Services Content */
 
+/*https: //wpengine.com/resources/combine-flexbox-and-css-grids-for-layouts-how-to/; https: //codepen.io/jensimmons/pen/LyrNqJ?editors=1100*/
+
 .services {
   background-color: #ffffff;
 }
@@ -78,6 +85,10 @@ h2 {
 }
 
 .service-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
   background-color: #f0f0f0;
   padding: 1rem;
   text-align: center;
@@ -88,9 +99,18 @@ h2 {
   height: auto;
 }
 
+/*https: //www.w3schools.com/cssref/pr_list-style-position.php*/
+
 .service-card ul {
   list-style: none;
+  font-weight: bold;
   padding: 0;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.service-card h3 {
+  margin-top: 1rem;
 }
 
 /* Section 3 - How it works */

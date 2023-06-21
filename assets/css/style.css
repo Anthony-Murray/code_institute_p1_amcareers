@@ -371,25 +371,35 @@ h2 {
   .text {
     text-align: center;
   }
-}
 
-/* Testimonials - Responsive (test) */
-@media (max-width: 700px) {
-  .testimonials-container {
-    grid-template-columns: 1fr;
-  }
-
-  .text {
+  .video-container {
     text-align: center;
-  }
-}
 
-@media (max-width: 900px) {
-  .testimonials-container {
-    grid-template-columns: 1fr 1fr;
+
+
   }
 
-  .text {
-    text-align: center;
+
+
+
+
+  /* Testimonials - Responsive (test) */
+  @media (max-width: 700px) {
+    .testimonials-container {
+      grid-template-columns: 1fr;
+    }
+
+    .text {
+      text-align: center;
+    }
   }
-}
+
+  @media (max-width: 900px) {
+    .testimonials-container {
+      grid-template-columns: 1fr 1fr;
+    }
+
+    .text {
+      text-align: center;
+    }
+  }

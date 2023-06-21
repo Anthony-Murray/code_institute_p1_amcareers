@@ -359,9 +359,34 @@ h2 {
 
 /* How it works - Responsive (test) */
 
-@media (max-width: 700px) {
+@media (max-width: 900px) {
   .how-it-works-container {
     grid-template-columns: 1fr;
+  }
+
+  .how-it-works-steps-container {
+    text-align: center;
+  }
+
+  .text {
+    text-align: center;
+  }
+}
+
+/* Testimonials - Responsive (test) */
+@media (max-width: 700px) {
+  .testimonials-container {
+    grid-template-columns: 1fr;
+  }
+
+  .text {
+    text-align: center;
+  }
+}
+
+@media (max-width: 900px) {
+  .testimonials-container {
+    grid-template-columns: 1fr 1fr;
   }
 
   .text {

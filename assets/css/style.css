@@ -379,6 +379,10 @@ h2 {
     font-size: 2.25rem;
   }
 
+  .how-it-works-container {
+    grid-template-columns: 1fr;
+  }
+
 }
 
 @media only screen and (max-width: 768px) {

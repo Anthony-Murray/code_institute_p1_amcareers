@@ -283,25 +283,36 @@ h2 {
 /*Section 6 - Footer*/
 
 .footer {
-  background-color: #1B365D;
-}
-
-.footer-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 2rem;
-  justify-items: center;
+  display: flex;
+  flex-direction: column;
   align-items: center;
-}
-
-.footer {
+  justify-content: flex-end;
   background-color: #1B365D;
-  color: #ffffff;
+
 }
 
-.footer a {
-  color: #ffffff;
+.social-icons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 3rem 0rem 3rem;
+  list-style: none;
 }
+
+.social-icons li a {
+  color: #ffffff;
+  font-size: 2rem;
+  margin: 0 0.5rem;
+}
+
+.footer h4 {
+  color: #ffffff;
+  text-align: center;
+}
+
+
+
 
 
 /* Navigation Menu (not responsive) text clipping at 724px */

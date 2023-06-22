@@ -177,6 +177,13 @@ h2 {
   margin-bottom: 0.5rem;
 }
 
+/*--https: //benmarshall.me/responsive-iframes/ Video grid was making steps grid text over flow--*/
+
+.responsive-iframe {
+  aspect-ratio: 16/9;
+  width: 100%;
+}
+
 /* Section 4 - Testimonials */
 
 .testimonials {
@@ -212,6 +219,28 @@ h2 {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 2rem;
+}
+
+.contact-us-text {
+  width: 100%;
+  text-align: center;
+}
+
+.contact-us-text span {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+  font-style: bold;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.contact-us-text address {
+  font-style: normal;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  text-align: center;
+  margin-bottom: 1rem;
 }
 
 /*https: //stackoverflow.com/questions/16907518/css-input-with-width-100-goes-outside-parents-bound Form input fields are extending beyond the container*/
@@ -379,27 +408,39 @@ h2 {
 
   }
 
+}
 
 
 
-
-  /* Testimonials - Responsive (test) */
-  @media (max-width: 700px) {
-    .testimonials-container {
-      grid-template-columns: 1fr;
-    }
-
-    .text {
-      text-align: center;
-    }
+/* Testimonials - Responsive (test) */
+@media (max-width: 700px) {
+  .testimonials-container {
+    grid-template-columns: 1fr;
   }
 
-  @media (max-width: 900px) {
-    .testimonials-container {
-      grid-template-columns: 1fr 1fr;
-    }
-
-    .text {
-      text-align: center;
-    }
+  .text {
+    text-align: center;
   }
+}
+
+@media (max-width: 900px) {
+  .testimonials-container {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .text {
+    text-align: center;
+  }
+}
+
+/* Contact Us - Responsive (test) */
+
+@media (max-width: 700px) {
+  .contact-us-container {
+    grid-template-columns: 1fr;
+  }
+
+  .text {
+    text-align: center;
+  }
+}

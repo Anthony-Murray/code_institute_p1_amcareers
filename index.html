@@ -118,8 +118,10 @@
       <div class="global-container">
         <h2>How it works</h2>
         <div class="how-it-works-container">
+          <!--video container not allowing steps container to contain. Text overflows on mobile. -->
+
           <div class="video-container">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/v4RAR_-zOhg"
+            <iframe class="responsive-iframe" src="https://www.youtube.com/embed/v4RAR_-zOhg"
               title="YouTube video player" frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               allowfullscreen>
@@ -234,10 +236,20 @@
             </form>
           </div>
           <div class="map-container">
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d18870.113212987926!2d-6.2640603!3d53.758082550000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sie!4v1687272302824!5m2!1sen!2sie"
-              width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="contact-us-text">
+              <span>Contact Details</span>
+              <address>
+                The Spires<br>
+                Termonfeckin<br>
+                Co. Louth<br>
+                <i class="fas fa-envelope" aria-label="Email"></i>info@amcareers.ie<br>
+                <i class="fas fa-phone" aria-label="Phone"></i> +353 868 880 4559
+              </address>
+              <iframe class="responsive-iframe"
+                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d18870.113212987926!2d-6.2640603!3d53.758082550000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sie!4v1687272302824!5m2!1sen!2sie"
+                style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
           </div>
         </div>
       </div>

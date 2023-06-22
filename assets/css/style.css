@@ -353,6 +353,32 @@ h2 {
   text-align: center;
 }
 
+/*404 Page*/
+.error-404 {
+  background-color: #F0F0F0;
+  text-align: center;
+
+}
+
+.error h1 {
+  font-size: 10rem;
+}
+
+.error h2 {
+  font-size: 2rem;
+}
+
+.error p {
+  font-size: 1.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.error .return {
+  font-size: 1.25rem;
+  color: #101E39;
+
+}
+
 /*Media Queries*/
 
 /*Navigation Menu*/

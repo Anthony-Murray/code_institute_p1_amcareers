@@ -88,8 +88,10 @@ h2 {
 }
 
 .primary-nav-links>li {
+
+  /*removed overflow: hidden;*/
+
   margin: 0 1rem;
-  overflow: hidden;
 }
 
 .primary-nav-links a {
@@ -349,4 +351,66 @@ h2 {
 .footer h4 {
   color: #ffffff;
   text-align: center;
+}
+
+/*Media Queries*/
+
+/*Navigation Menu*/
+
+@media only screen and (max-width: 1000px) {
+  .primary-nav {
+    flex-direction: column;
+    padding: 1rem;
+    align-items: center;
+  }
+
+  .primary-nav-links {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .primary-nav-links>li {
+    margin: 0 0.5rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .primary-nav {
+    padding: 0.5rem;
+  }
+
+  .primary-nav-links {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.5rem;
+    align-items: center;
+  }
+
+  .primary-nav-links>li {
+    margin: 0.2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-content {
+    grid-template-columns: 1fr;
+  }
+
+  .services-container {
+    grid-template-columns: 1fr;
+  }
+
+  .how-it-works-container {
+    grid-template-columns: 1fr;
+  }
+
+  .testimonials-container {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .contact-us-container {
+    grid-template-columns: 1fr;
+  }
 }

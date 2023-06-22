@@ -379,6 +379,27 @@ h2 {
 
 }
 
+/*404 Page*/
+.form-confirmation {
+  background-color: #F0F0F0;
+  text-align: center;
+
+}
+
+.form-success h1 {
+  font-size: 6rem;
+}
+
+.form-success h2 {
+  font-size: 2rem;
+}
+
+.form-success p {
+  font-size: 1.5rem;
+  margin-bottom: 2.5rem;
+}
+
+
 /*Media Queries*/
 
 /*Navigation Menu*/

@@ -374,6 +374,11 @@ h2 {
   .primary-nav-links>li {
     margin: 0 0.5rem;
   }
+
+  h1 {
+    font-size: 2.25rem;
+  }
+
 }
 
 @media only screen and (max-width: 768px) {
@@ -390,8 +395,13 @@ h2 {
 
   .primary-nav-links>li {
     margin: 0.2rem;
+
   }
+
+
 }
+
+/*Other Sections*/
 
 @media (max-width: 768px) {
   .hero-content {
@@ -413,10 +423,14 @@ h2 {
   .contact-us-container {
     grid-template-columns: 1fr;
   }
-}
 
-@media (max-width: 480px) {
-  .testimonials-container {
-    grid-template-columns: 1fr;
+  h1 {
+    font-size: 2.1rem;
+
   }
-}
+
+  @media (max-width: 480px) {
+    .testimonials-container {
+      grid-template-columns: 1fr;
+    }
+  }

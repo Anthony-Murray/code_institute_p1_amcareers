@@ -175,8 +175,9 @@ h2 {
 }
 
 .service-card img {
-  max-width: 100%;
+  width: 100%;
   height: auto;
+  max-width: 100%;
 }
 
 /*https: //www.w3schools.com/cssref/pr_list-style-position.php*/

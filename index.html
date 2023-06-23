@@ -19,7 +19,8 @@
     <nav class="primary-nav">
       <div class="logo">
         <a href="index.html">
-          <img src="assets/images/logo2.png" alt="AM Careers logo" width="300" height="100">
+          <img src="assets/images/logo2.png" alt="Logo for AM Careers - Career Guidance website." width="300"
+            height="100">
         </a>
       </div>
       <ul class="primary-nav-links">
@@ -122,7 +123,7 @@
       <h2>How it works</h2>
       <div class="how-it-works-container">
         <!--video container not allowing steps container to contain. Text overflows on mobile. -->
-
+        <!--https://web.dev/embed-best-practices/ for lazy loading-->
         <div class="video-container">
           <iframe class="responsive-iframe" src="https://www.youtube.com/embed/v4RAR_-zOhg" title="YouTube video player"
             loading="lazy" frameborder="0"
@@ -228,7 +229,7 @@
             </div>
             <div class="form-fields">
               <label for="email">Email Address</label>
-              <input type="email-address" id="email" name="email-address" required>
+              <input type="email" id="email" name="email-address" required>
               <div class="form-fields">
 
                 <!--https://stackoverflow.com/questions/17042201/how-to-style-input-and-submit-button-with-css-->
@@ -265,13 +266,18 @@
     <div class="footer-section">
       <h4>Keep up to date with us on Social Media!</h4>
       <ul class="social-icons">
-        <li><a href="https://www.facebook.com/"><i class="fab fa-facebook" aria-label="Facebook"></i></a></li>
-        <li><a href="https://twitter.com/home"><i class="fab fa-twitter" aria-label="Twitter"></i></a></li>
-        <li><a href="#"><i class="fab fa-instagram" aria-label="https://www.instagram.com/"></i></a></li>
-        <li><a href="https://www.linkedin.com/in/anthony-murray/"><i class="fab fa-linkedin"
-              aria-label="LinkedIn"></i></a></li>
-        <li><a href="https://www.youtube.com/"><i class="fab fa-youtube" aria-label="YouTube"></i></a></li>
-        <li><a href="https://github.com/Anthony-Murray"><i class="fab fa-github" aria-label="Github"></i></a></li>
+        <li><a href="https://www.facebook.com/" target="_blank" rel="noopener"
+            aria-label="Visit our Facebook Page (opens in a new tab)"><i class="fab fa-facebook"></i></a></li>
+        <li><a href="https://www.instagram.com/" target="_blank" rel="noopener"
+            aria-label="Visit our Instagram Page (opens in a new tab)"><i class="fab fa-instagram"></i></a></li>
+        <li><a href="https://twitter.com/" target="_blank" rel="noopener"
+            aria-label="Visit our Twitter Page (opens in a new tab)"><i class="fab fa-twitter"></i></a></li>
+        <li><a href="https://www.linkedin.com/" target="_blank" rel="noopener"
+            aria-label="Visit our LinkedIn Page (opens in a new tab)"><i class="fab fa-linkedin"></i></a></li>
+        <li><a href="https://www.youtube.com/" target="_blank" rel="noopener"
+            aria-label="Visit our YouTube Page (opens in a new tab)"><i class="fab fa-youtube"></i></a></li>
+        <li><a href="https://github.com/Anthony-Murray" target="_blank" rel="noopener"
+            aria-label="Visit our YouTube Page (opens in a new tab)"><i class="fab git"></i></a></li>
       </ul>
     </div>
   </footer>

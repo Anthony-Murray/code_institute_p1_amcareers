@@ -8,9 +8,7 @@
     content="AM Careers is a website that helps teenagers and graduates make the right career choices." />
   <meta name="keywords" content="AM Careers, Careers, Career, CAO, Career Guidance, Apprenticeships, Graduates" />
   <meta name="author" content="Anthony Murray" />
-  <link rel="icon" href="assets\images\favicon.ico" />
-
-
+  <link rel="icon" href="assets\images\favicon.ico">
   <link rel="stylesheet" href="assets/css/style.css" />
   <title>AM Careers</title>
 </head>
@@ -21,261 +19,257 @@
     <nav class="primary-nav">
       <div class="logo">
         <a href="index.html">
-          <img src="assets\images\logo2.png" />
+          <img src="assets/images/logo2.png" alt="AM Careers logo">
         </a>
       </div>
       <ul class="primary-nav-links">
-        <li><a href="Services">Services</a></li>
-        <li><a href="How it works">How it works</a></li>
-        <li><a href="Testimonials">Testimonials</a></li>
-        <li><a href="Contact">Contact</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#how-it-works">How it works</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
   </header>
-  <section>
-    <!-- Hero section. Primarliy used CSS grid. Resources researched: https://www.freecodecamp.org/news/css-grid-tutorial-with-cheatsheet/ https://www.freecodecamp.org/news/how-to-make-a-landing-page-with-html-css-and-javascript/ https://www.freecodecamp.org/news/web-layouts-use-css-grid-and-flex-to-create-responsive-webpages/  -->
-    <section class="hero">
+  <!-- Hero section. Primarliy used CSS grid. Resources researched: https://www.freecodecamp.org/news/css-grid-tutorial-with-cheatsheet/ https://www.freecodecamp.org/news/how-to-make-a-landing-page-with-html-css-and-javascript/ https://www.freecodecamp.org/news/web-layouts-use-css-grid-and-flex-to-create-responsive-webpages/  -->
+  <section class="hero">
 
-      <!--Area not being contained. https://www.w3schools.com/css/css_max-width.asp-->
-      <div class="global-container">
-        <div class="hero-content">
-          <div class="image">
-            <img src="assets\images\Anthony Murray.webp" alt="Picture of Anthony Murray">
+    <!--Area not being contained. https://www.w3schools.com/css/css_max-width.asp-->
+    <div class="global-container">
+      <div class="hero-content">
+        <div class="image">
+          <img src="assets\images\Anthony Murray.webp" alt="Picture of Anthony Murray">
+        </div>
+        <div class="text-content">
+          <h1>Career Guidance for teenagers and graduates</h1>
+          <p>Get it right first time! If you're unsure about which third level course will suit you, choosing your
+            leaving certificate subjects or are a recent graduate unsure about how to navigate your career you've come
+            to the right place!</p>
+
+          <!--Imported Fontawsome and added aria-hidden as per guidance https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-hidden-->
+
+          <ul class="icon-list">
+            <li><i class="fa-solid fa-check" aria-hidden="true" style="color: #1b365d;"></i> Fully Qualified</li>
+            <li><i class="fa-solid fa-check" aria-hidden="true" style="color: #1b365d;"></i> Over 15 years experience
+              in Higher Education</li>
+            <li><i class="fa-solid fa-check" aria-hidden="true" style="color: #1b365d;"></i> Contact us now for your
+              FREE 15 minute consultation
+            </li>
+          </ul>
+          <button class="global-button">Free 15-Min Consultation</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--https://blog.logrocket.com/css-grid-guide/; https://css-tricks.com/look-ma-no-media-queries-responsive-layouts-using-css-grid/-->
+
+  <section id="services" class="services">
+    <div class="global-container">
+      <! -- Testing global-container -->
+        <h2>We're here to help! Services we offer include:</h2>
+        <div class="services-container">
+          <div class="service-card">
+            <img src="assets\images\leaving_cert_student-_2_.webp" alt="Picture of Leaving Cert Student">
+            <h3>Leaving Certificate Students</h3>
+            <p>Avoid costly mistakes! Get it right first time, we can help you make the right choices for you.</p>
+            <ul>
+              <li>CAO Applications</li>
+              <li>College Course Choice</li>
+              <li>Apprenticeships</li>
+              <li>PLC Courses</li>
+            </ul>
+            <button class="global-button">Free 15-Min Consultation</button>
           </div>
-          <div class="text-content">
-            <h1>Career Guidance for teenagers and graduates</h1>
-            <p>Get it right first time! If you're unsure about which third level course will suit you, choosing your
-              leaving certificate subjects or are a recent graduate unsure about how to navigate your career you've come
-              to the right place!</p>
-
-            <!--Imported Fontawsome and added aria-hidden as per guidance https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-hidden-->
-
-            <ul class="icon-list">
-              <li><i class="fa-solid fa-check" aria-hidden="true" style="color: #1b365d;"></i> Fully Qualified</li>
-              <li><i class="fa-solid fa-check" aria-hidden="true" style="color: #1b365d;"></i> Over 15 years experience
-                in Higher Education</li>
-              <li><i class="fa-solid fa-check" aria-hidden="true" style="color: #1b365d;"></i> Contact us now for your
-                FREE 15 minute consultation
-              </li>
+          <div class="service-card">
+            <img src="assets\images\transition_year_student (2).webp" alt="Picture of transition year student">
+            <h3>Transition Year Students</h3>
+            <p>Choosing the correct Leaving Certificate subjects is crucial. We can help you make the right choices.
+            </p>
+            <ul>
+              <li>Choosing Leaving Cert Subjects</li>
+              <li>Early Career Exploration</li>
+              <li>Making the most of your Work Expereince</li>
+              <li>Understanding Higher Education Options</li>
+            </ul>
+            <button class="global-button">Free 15-Min Consultation</button>
+          </div>
+          <div class="service-card">
+            <img src="assets\images\graduate.webp" alt="Picture of graduate">
+            <h3>Graduates</h3>
+            <p>Make all your hard work pay off! We can help you get your career off to the best possible start.
+            </p>
+            <ul>
+              <li>CV Preparation</li>
+              <li>Interview Preparation</li>
+              <li>Job Search Strategies</li>
+              <li>Understanding your Career Options</li>
             </ul>
             <button class="global-button">Free 15-Min Consultation</button>
           </div>
         </div>
-      </div>
-    </section>
+    </div>
+  </section>
 
-    <!--https://blog.logrocket.com/css-grid-guide/; https://css-tricks.com/look-ma-no-media-queries-responsive-layouts-using-css-grid/-->
+  <!--https://blog.logrocket.com/css-grid-guide/; https://css-tricks.com/look-ma-no-media-queries-responsive-layouts-using-css-grid/-->
 
+  <section id="how-it-works" class="how-it-works">
+    <div class="global-container">
+      <h2>How it works</h2>
+      <div class="how-it-works-container">
+        <!--video container not allowing steps container to contain. Text overflows on mobile. -->
 
-    <section class="services">
-      <div class="global-container">
-        <! -- Testing global-container -->
-          <h2>We're here to help! Services we offer include:</h2>
-          <div class="services-container">
-            <div class="service-card">
-              <img src="assets\images\leaving_cert_student-_2_.webp" alt="Picture of Leaving Cert Student">
-              <h3>Leaving Certificate Students</h3>
-              <p>Avoid costly mistakes! Get it right first time, we can help you make the right choices for you.</p>
-              </p>
-              <ul>
-                <li>CAO Applications</li>
-                <li>College Course Choice</li>
-                <li>Apprenticeships</li>
-                <li>PLC Courses</li>
-              </ul>
-              <button class="global-button">Free 15-Min Consultation</button>
-            </div>
-            <div class="service-card">
-              <img src="assets\images\transition_year_student (2).webp" alt="Picture of transition year student">
-              <h3>Transition Year Students</h3>
-              <p>Choosing the correct Leaving Certificate subjects is crucial. We can help you make the right choices.
-              </p>
-              <ul>
-                <li>Choosing Leaving Cert Subjects</li>
-                <li>Early Career Exploration</li>
-                <li>Making the most of your Work Expereince</li>
-                <li>Understanding Higher Education Options</li>
-              </ul>
-              <button class="global-button">Free 15-Min Consultation</button>
-            </div>
-            <div class="service-card">
-              <img src="assets\images\graduate.webp" alt="Picture of graduate">
-              <h3>Graduates</h3>
-              <p>Make all your hard work pay off! We can help you get your career off to the best possible start.
-              </p>
-              <ul>
-                <li>CV Preparation</li>
-                <li>Interview Preparation</li>
-                <li>Job Search Strategies</li>
-                <li>Understanding your Career Options</li>
-              </ul>
-              <button class="global-button">Free 15-Min Consultation</button>
-            </div>
+        <div class="video-container">
+          <iframe class="responsive-iframe" src="https://www.youtube.com/embed/v4RAR_-zOhg" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen>
+
+            <!-- add messsage for unsupported browsers https://blog.logrocket.com/the-ultimate-guide-to-iframes/-->
+
+            <p>Your browser does not support iframes.</p>
+          </iframe>
+
+        </div>
+        <div class="how-it-works-steps-container">
+          <div class="how-it-works-step">
+            <span>Step 1: Online Testing</span>
+            <p>Complete a suite of online psychometric tests.</p>
           </div>
-      </div>
-    </section>
-
-    <!--https://blog.logrocket.com/css-grid-guide/; https://css-tricks.com/look-ma-no-media-queries-responsive-layouts-using-css-grid/-->
-
-    <section class="how-it-works">
-      <div class="global-container">
-        <h2>How it works</h2>
-        <div class="how-it-works-container">
-          <!--video container not allowing steps container to contain. Text overflows on mobile. -->
-
-          <div class="video-container">
-            <iframe class="responsive-iframe" src="https://www.youtube.com/embed/v4RAR_-zOhg"
-              title="YouTube video player" frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowfullscreen>
-
-              <!-- add messsage for unsupported browsers https://blog.logrocket.com/the-ultimate-guide-to-iframes/-->
-
-              <p>Your browser does not support iframes.</p>
-            </iframe>
-
+          <div class="how-it-works-step">
+            <span>Step 2: Reports circulated to both parents and students.</span>
+            <p>Parents recieve a full report which is discussed and the student is given access to the online
+              platform.</p>
           </div>
-          <div class="how-it-works-steps-container">
-            <div class="how-it-works-step">
-              <span>Step 1: Online Testing</span>
-              <p>Complete a suite of online psychometric tests.</p>
-            </div>
-            <div class="how-it-works-step">
-              <span>Step 2: Reports circulated to both parents and students.</span>
-              <p>Parents recieve a full report which is discussed and the student is given access to the online
-                platform.</p>
-            </div>
-            <div class="how-it-works-step">
-              <span>Step 3: First in person meeting with student</span>
-              <p>1 hour meeting with the career coach to dicuss psychometric tesing, careers interest report and next
-                steps.</p>
-            </div>
-            <div class="how-it-works-step">
-              <span>Step 4: Follow up meeting with student and parents.</span>
-              <p>Second meeting with student and final meeting with parents to discuss options available to the student.
-              </p>
-            </div>
+          <div class="how-it-works-step">
+            <span>Step 3: First in person meeting with student</span>
+            <p>1 hour meeting with the career coach to dicuss psychometric tesing, careers interest report and next
+              steps.</p>
+          </div>
+          <div class="how-it-works-step">
+            <span>Step 4: Follow up meeting with student and parents.</span>
+            <p>Second meeting with student and final meeting with parents to discuss options available to the student.
+            </p>
           </div>
         </div>
       </div>
-    </section>
-    <section class="testimonials">
-      <div class="global-container">
-        <h2>Testimonials</h2>
-        <div class="testimonials-container">
-          <div class="testimonial">
-            <img src="assets\images\Anthony Murray.webp">
-            <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum. Quisquam, voluptatum.
-              Quisquam, voluptatum."</p>
-            <p><b>John Doe</b></p>
-          </div>
-          <div class="testimonial">
-            <img src="assets\images\Anthony Murray.webp">
-            <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum. Quisquam, voluptatum.
-              Quisquam, voluptatum."</p>
-            <p><b>John Doe</b></p>
-          </div>
-          <div class="testimonial">
-            <img src="assets\images\Anthony Murray.webp">
-            <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum. Quisquam, voluptatum.
-              Quisquam, voluptatum."</p>
-            <p><b>John Doe</b></p>
-          </div>
-          <div class="testimonial">
-            <img src="assets\images\Anthony Murray.webp">
-            <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum. Quisquam, voluptatum.
-              Quisquam, voluptatum."</p>
-            <p><b>John Doe</b></p>
-          </div>
+    </div>
+  </section>
+  <section id="testimonials" class="testimonials">
+    <div class="global-container">
+      <h2>Testimonials</h2>
+      <div class="testimonials-container">
+        <div class="testimonial">
+          <img src="assets\images\Anthony Murray.webp">
+          <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum. Quisquam, voluptatum.
+            Quisquam, voluptatum."</p>
+          <p><b>John Doe</b></p>
+        </div>
+        <div class="testimonial">
+          <img src="assets\images\Anthony Murray.webp">
+          <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum. Quisquam, voluptatum.
+            Quisquam, voluptatum."</p>
+          <p><b>John Doe</b></p>
+        </div>
+        <div class="testimonial">
+          <img src="assets\images\Anthony Murray.webp">
+          <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum. Quisquam, voluptatum.
+            Quisquam, voluptatum."</p>
+          <p><b>John Doe</b></p>
+        </div>
+        <div class="testimonial">
+          <img src="assets\images\Anthony Murray.webp">
+          <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum. Quisquam, voluptatum.
+            Quisquam, voluptatum."</p>
+          <p><b>John Doe</b></p>
         </div>
       </div>
-    </section>
-    <section class="contact-us-section">
-      <div class="global-container">
-        <h2>Contact Me</h2>
-        <div class="contact-us-container">
-          <div class="form-container">
-            <h3>Free 15 minute consultation</h3>
+    </div>
+  </section>
+  <section id="contact" class="contact-us-section">
+    <div class="global-container">
+      <h2>Contact Me</h2>
+      <div class="contact-us-container">
+        <div class="form-container">
+          <h3>Free 15 minute consultation</h3>
+          <!--https://www.w3schools.com/howto/howto_css_contact_form.asp-->
+          <!--https://developer.mozilla.org/en-US/docs/Learn/Forms/Sending_and_retrieving_form_data>-->
+          <!--https://html.form.guide/email-form/email-form-mailto/-->
+          <!--Should I validate email address, do I need tel input type?-->
+
+          <form method="GET" action="form.html">
+
             <!--https://www.w3schools.com/howto/howto_css_contact_form.asp-->
-            <!--https://developer.mozilla.org/en-US/docs/Learn/Forms/Sending_and_retrieving_form_data>-->
-            <!--https://html.form.guide/email-form/email-form-mailto/-->
-            <!--Should I validate email address, do I need tel input type?-->
+            <!--Love Running Code Institute-->
+            <!--http://www.prepbootstrap.com/bootstrap-template/contact-us-with-map-->
 
-            <form method="GET" action="https://codeinstitute.net/ie/">
-
-              <!--https://www.w3schools.com/howto/howto_css_contact_form.asp-->
-              <!--Love Running Code Institute-->
-              <!--http://www.prepbootstrap.com/bootstrap-template/contact-us-with-map-->
-
-              <div class="form-fields">
-                <label for="name">Full Name:</label>
-                <input type="text" id="full-name" name="full-name" required>
-              </div>
-              <div class="form-fields">
-
-                <!--https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/tel-->
-
-                <label for="phone">Mobile Number:</label>
-                <input type="tel" id="mobile-number" name="mobile-number" required>
-              </div>
-              <div class="form-fields">
-                <label for="services">Select which service you are enquiring about</label>
-                <select id="services" name="services">
-                  <option value="service1">Leaving Cert Student</option>
-                  <option value="service2">Transition Year Student</option>
-                  <option value="service3">Graduate</option>
-                </select>
-              </div>
-              <div class="form-fields">
-                <label for="email">Email Address</label>
-                <input type="email-address" id="email" name="email-address" required>
-                <div class="form-fields">
-
-                  <!--https://stackoverflow.com/questions/17042201/how-to-style-input-and-submit-button-with-css-->
-
-                  <input type="submit" value="Submit">
-                </div>
-              </div>
-            </form>
-          </div>
-          <div class="map-container">
-            <div class="contact-us-text">
-              <span>Contact Details</span>
-              <address>
-                The Spires<br>
-                Termonfeckin<br>
-                Co. Louth<br>
-                <i class="fas fa-envelope" aria-label="Email"></i>info@amcareers.ie<br>
-                <i class="fas fa-phone" aria-label="Phone"></i> +353 868 880 4559
-              </address>
-              <iframe class="responsive-iframe"
-                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d18870.113212987926!2d-6.2640603!3d53.758082550000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sie!4v1687272302824!5m2!1sen!2sie"
-                style="border:0;" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="form-fields">
+              <label for="name">Full Name:</label>
+              <input type="text" id="full-name" name="full-name" required>
             </div>
+            <div class="form-fields">
+
+              <!--https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/tel-->
+
+              <label for="phone">Mobile Number:</label>
+              <input type="tel" id="mobile-number" name="mobile-number" required>
+            </div>
+            <div class="form-fields">
+              <label for="services">Select which service you are enquiring about</label>
+              <select id="services" name="services">
+                <option value="service1">Leaving Cert Student</option>
+                <option value="service2">Transition Year Student</option>
+                <option value="service3">Graduate</option>
+              </select>
+            </div>
+            <div class="form-fields">
+              <label for="email">Email Address</label>
+              <input type="email-address" id="email" name="email-address" required>
+              <div class="form-fields">
+
+                <!--https://stackoverflow.com/questions/17042201/how-to-style-input-and-submit-button-with-css-->
+
+                <input type="submit" value="Submit">
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="map-container">
+          <div class="contact-us-text">
+            <span>Contact Details</span>
+            <address>
+              The Spires<br>
+              Termonfeckin<br>
+              Co. Louth<br>
+              <i class="fas fa-envelope" aria-label="Email"></i>info@amcareers.ie<br>
+              <i class="fas fa-phone" aria-label="Phone"></i> +353 868 880 4559
+            </address>
+            <iframe class="responsive-iframe"
+              src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d18870.113212987926!2d-6.2640603!3d53.758082550000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sie!4v1687272302824!5m2!1sen!2sie"
+              style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!--https://blog.hubspot.com/website/website-footer-->
-    <!--https://webdesign.tutsplus.com/tutorials/how-to-build-a-responsive-multi-level-sticky-footer-with-flexbox--cms-33341-->
+  <!--https://blog.hubspot.com/website/website-footer-->
+  <!--https://webdesign.tutsplus.com/tutorials/how-to-build-a-responsive-multi-level-sticky-footer-with-flexbox--cms-33341-->
 
-    <footer class="footer">
-      <div class="footer-section">
-        <h4>Keep up to date with us on Social Media!</h4>
-        <ul class="social-icons">
-          <li><a href="#"><i class="fab fa-facebook" aria-label="Facebook"></i></a></li>
-          <li><a href="#"><i class="fab fa-twitter" aria-label="Twitter"></i></a></li>
-          <li><a href="#"><i class="fab fa-instagram" aria-label="Instagram"></i></a></li>
-          <li><a href="#"><i class="fab fa-linkedin" aria-label="LinkedIn"></i></a></li>
-          <li><a href="#"><i class="fab fa-youtube" aria-label="YouTube"></i></a></li>
-          <li><a href="#"><i class="fab fa-github" aria-label="Github"></i></a></li>
-        </ul>
-      </div>
-    </footer>
-    <!-- Font Awesome -->
-    <script src="https://kit.fontawesome.com/847cb20f9b.js" crossorigin="anonymous"></script>
+  <footer class="footer">
+    <div class="footer-section">
+      <h4>Keep up to date with us on Social Media!</h4>
+      <ul class="social-icons">
+        <li><a href="#"><i class="fab fa-facebook" aria-label="Facebook"></i></a></li>
+        <li><a href="#"><i class="fab fa-twitter" aria-label="Twitter"></i></a></li>
+        <li><a href="#"><i class="fab fa-instagram" aria-label="Instagram"></i></a></li>
+        <li><a href="#"><i class="fab fa-linkedin" aria-label="LinkedIn"></i></a></li>
+        <li><a href="#"><i class="fab fa-youtube" aria-label="YouTube"></i></a></li>
+        <li><a href="#"><i class="fab fa-github" aria-label="Github"></i></a></li>
+      </ul>
+    </div>
+  </footer>
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/847cb20f9b.js" crossorigin="anonymous"></script>
 </body>
 
 </html>

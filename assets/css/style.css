@@ -480,6 +480,7 @@ h2 {
   }
 }
 
+
 @media (max-width: 480px) {
   .testimonials-container {
     grid-template-columns: 1fr;

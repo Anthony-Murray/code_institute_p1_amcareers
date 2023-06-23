@@ -67,9 +67,8 @@ h2 {
 /* Navigation Menu (not responsive) text clipping at 724px */
 
 .logo img {
-  width: 100%;
   height: auto;
-  max-width: 100%;
+  width: 100%;
 }
 
 .primary-nav {
@@ -118,9 +117,8 @@ h2 {
 }
 
 .image img {
-  width: 100%;
   height: auto;
-  max-width: 100%;
+  width: 100%;
 }
 
 .hero-content p {
@@ -177,9 +175,8 @@ h2 {
 }
 
 .service-card img {
-  width: 100%;
   height: auto;
-  max-width: 100%;
+  width: 100%;
 }
 
 /*https: //www.w3schools.com/cssref/pr_list-style-position.php*/
@@ -245,11 +242,6 @@ h2 {
   text-align: center;
 }
 
-.testimonial img {
-  width: 100%;
-  height: auto;
-  max-width: 100%;
-}
 
 /*love running circle*/
 

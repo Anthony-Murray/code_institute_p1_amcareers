@@ -125,8 +125,11 @@
         <!--video container not allowing steps container to contain. Text overflows on mobile. -->
         <!--https://web.dev/embed-best-practices/ for lazy loading-->
         <div class="video-container">
-          <iframe class="responsive-iframe" src="https://www.youtube.com/embed/v4RAR_-zOhg" title="YouTube video player"
-            loading="lazy" frameborder="0"
+
+          <!--https://www.makeuseof.com/tag/force-subtitles-embedded-youtube-video/-->
+
+          <iframe class="responsive-iframe" src="https://www.youtube.com/embed/v4RAR_-zOhg?cc_load_policy=1"
+            title="Video of MyUniChoices - a guide for parents in Ireland" loading="lazy" frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowfullscreen>
 

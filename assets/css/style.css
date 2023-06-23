@@ -67,8 +67,9 @@ h2 {
 /* Navigation Menu (not responsive) text clipping at 724px */
 
 .logo img {
+  width: 100%;
+  height: auto;
   max-width: 100%;
-  max-height: 100%;
 }
 
 .primary-nav {
@@ -117,8 +118,9 @@ h2 {
 }
 
 .image img {
-  max-width: 100%;
+  width: 100%;
   height: auto;
+  max-width: 100%;
 }
 
 .hero-content p {
@@ -241,6 +243,12 @@ h2 {
 
 .testimonial {
   text-align: center;
+}
+
+.testimonial img {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
 }
 
 /*love running circle*/

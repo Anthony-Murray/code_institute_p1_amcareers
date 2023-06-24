@@ -486,4 +486,13 @@ h2 {
   .testimonials-container {
     grid-template-columns: 1fr;
   }
+
+  .form-success h1 {
+    font-size: 2rem;
+  }
+
+  .error h1 {
+    font-size: 2rem;
+  }
+
 }

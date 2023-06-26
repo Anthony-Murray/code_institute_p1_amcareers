@@ -1,9 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<!--https://developer.chrome.com/docs/lighthouse/performance/uses-rel-preconnect/?utm_source=lighthouse&utm_medium=devtools-->
-
-
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -20,11 +17,10 @@
 
 <body>
   <header>
-    <!-- Navigation bar designed using flexbox as recommmend during stand up sessions.Due to accesability issues I did will not implement a CSS only solution for a mobile hamburger menu. See the following article  Rescources researched: https://css-tricks.com/snippets/css/a-guide-to-flexbox/; https://stackoverflow.com/questions/47401222/align-logo-on-the-left-and-navigation-links-on-the-right-using-flexbox; https://codepen.io/alvarotrigo/pen/MWEJEWG; https://freshman.tech/flexbox-navbar/-->
     <nav class="primary-nav">
       <div class="logo">
         <a href="index.html">
-          <img src="assets\images\logo.svg" alt="Logo for AM Careers - Career Guidance website." width="300"
+          <img src="assets/images/logo.svg" alt="Logo for AM Careers - Career Guidance website." width="300"
             height="100">
         </a>
       </div>
@@ -36,13 +32,8 @@
       </ul>
     </nav>
   </header>
-  <!-- Hero section. Primarliy used CSS grid. Resources researched: https://www.freecodecamp.org/news/css-grid-tutorial-with-cheatsheet/ https://www.freecodecamp.org/news/how-to-make-a-landing-page-with-html-css-and-javascript/ https://www.freecodecamp.org/news/web-layouts-use-css-grid-and-flex-to-create-responsive-webpages/  -->
+
   <section class="hero">
-
-    <!--Area not being contained. https://www.w3schools.com/css/css_max-width.asp-->
-
-    <!--https://web.dev/optimize-cls/?utm_source=lighthouse&utm_medium=devtools#images-without-dimensions Images causing issues with performance-->
-
     <div class="global-container">
       <div class="hero-content">
         <div class="image">
@@ -54,7 +45,6 @@
             leaving certificate subjects or are a recent graduate unsure about how to navigate your career you've come
             to the right place!</p>
 
-          <!--Imported Fontawsome and added aria-hidden as per guidance https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-hidden-->
 
           <ul class="icon-list">
             <li><i class="fa-solid fa-check" aria-hidden="true" style="color: #1b365d;"></i> Fully Qualified</li>
@@ -70,11 +60,9 @@
     </div>
   </section>
 
-  <!--https://blog.logrocket.com/css-grid-guide/; https://css-tricks.com/look-ma-no-media-queries-responsive-layouts-using-css-grid/-->
 
   <section id="services" class="services">
     <div class="global-container">
-      <!-- Testing global-container -->
       <h2>We're here to help! Services we offer include:</h2>
       <div class="services-container">
         <div class="service-card">
@@ -123,29 +111,18 @@
     </div>
   </section>
 
-  <!--https://blog.logrocket.com/css-grid-guide/; https://css-tricks.com/look-ma-no-media-queries-responsive-layouts-using-css-grid/-->
-
   <section id="how-it-works" class="how-it-works">
     <div class="global-container">
       <h2>How it works</h2>
       <div class="how-it-works-container">
-        <!--video container not allowing steps container to contain. Text overflows on mobile. -->
-        <!--https://web.dev/embed-best-practices/ for lazy loading-->
         <div class="video-container">
 
-          <!--https://www.makeuseof.com/tag/force-subtitles-embedded-youtube-video/-->
-          <!--https://css-tricks.com/lazy-load-embedded-youtube-videos/-->
-          <!--https://web.dev/embed-best-practices/-->
-          <!--https://stackoverflow.com/questions/59608884/how-to-lazy-load-a-youtube-video-embedded-on-an-iframe-->
+
 
           <iframe class="responsive-iframe" src="https://www.youtube.com/embed/v4RAR_-zOhg"
-            title="Video of MyUniChoices - a guide for parents in Ireland" loading="lazy" frameborder="0"
+            title="Video of MyUniChoices - a guide for parents in Ireland" loading="lazy"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowfullscreen>
-
-            <!-- add messsage for unsupported browsers https://blog.logrocket.com/the-ultimate-guide-to-iframes/-->
-
-            <p>Your browser does not support iframes.</p>
           </iframe>
 
         </div>
@@ -178,25 +155,25 @@
       <h2>Testimonials</h2>
       <div class="testimonials-container">
         <div class="testimonial">
-          <img src="assets\images\Liam.webp" alt="Headshot of Liam, a very happy customer of AM Careers">
+          <img src="assets/images/Liam.webp" alt="Headshot of Liam, a very happy customer of AM Careers">
           <p>"I had no idea what I wanted to do after the Leaving Cert but after the consultation I was much clearer
             about my options."</p>
           <p><b>Liam</b></p>
         </div>
         <div class="testimonial">
-          <img src="assets\images\Lilly.webp" alt="Headshot of Lilly, a very happy customer of AM Careers">
+          <img src="assets/images/Lilly.webp" alt="Headshot of Lilly, a very happy customer of AM Careers">
           <p>"I'm so glad that I went to see Anthony. When choosing my Leaving Cert subjects I had no idea of the
             importance of looking at what university courses I was interested in."</p>
           <p><b>Lilly</b></p>
         </div>
         <div class="testimonial">
-          <img src="assets\images\Derek.webp" alt="Headshot of Derek, a very happy customer of AM Careers">
+          <img src="assets/images/Derek.webp" alt="Headshot of Derek, a very happy customer of AM Careers">
           <p>"On finishing college I was really unsure about what direction to take or the application process for
             graduate roles. I'm now really loving the graduate programme that Anthony helped me secure."</p>
           <p><b>Derek</b></p>
         </div>
         <div class="testimonial">
-          <img src="assets\images\Mary.webp" alt="Headshot of Mary, a very happy customer of AM Careers">
+          <img src="assets/images/Mary.webp" alt="Headshot of Mary, a very happy customer of AM Careers">
           <p>"I was unsure about returning to study as a mature student but after my conversation with Anthony I was
             much clearer on my options and what courses aligned to my career goals."</p>
           <p><b>Mary</b></p>
@@ -210,24 +187,12 @@
       <div class="contact-us-container">
         <div class="form-container">
           <h3>Free 15 minute consultation</h3>
-          <!--https://www.w3schools.com/howto/howto_css_contact_form.asp-->
-          <!--https://developer.mozilla.org/en-US/docs/Learn/Forms/Sending_and_retrieving_form_data>-->
-          <!--https://html.form.guide/email-form/email-form-mailto/-->
-          <!--Should I validate email address, do I need tel input type?-->
-
           <form method="GET" action="form.html">
-
-            <!--https://www.w3schools.com/howto/howto_css_contact_form.asp-->
-            <!--Love Running Code Institute-->
-            <!--http://www.prepbootstrap.com/bootstrap-template/contact-us-with-map-->
-
             <div class="form-fields">
               <label for="full-name">Full Name:</label>
               <input type="text" id="full-name" name="full-name" required>
             </div>
             <div class="form-fields">
-
-              <!--https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/tel-->
 
               <label for="mobile-number">Mobile Number:</label>
               <input type="tel" id="mobile-number" name="mobile-number" required>
@@ -245,8 +210,6 @@
               <input type="email" id="email" name="email-address" required>
               <div class="form-fields">
 
-                <!--https://stackoverflow.com/questions/17042201/how-to-style-input-and-submit-button-with-css-->
-
                 <input type="submit" value="Submit">
               </div>
             </div>
@@ -260,8 +223,8 @@
               Termonfeckin<br>
               Co. Louth<br>
               <a href="mailto:info@amcareers.ie"><i class="fas fa-envelope"
-                  aria-label="Email"></i>&nbsp;info@amcareers.ie</a><br>
-              <a href="tel:+3538688804559"><i class="fas fa-phone" aria-label="Phone"></i>&nbsp; +353 868 880 4559</a>
+                  aria-hidden="true"></i>&nbsp;info@amcareers.ie</a><br>
+              <a href="tel:+3538688804559"><i class="fas fa-phone" aria-hidden="true"></i>&nbsp; +353 868 880 4559</a>
             </address>
             <iframe class="responsive-iframe"
               src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d18870.113212987926!2d-6.2640603!3d53.758082550000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sie!4v1687272302824!5m2!1sen!2sie"
@@ -273,34 +236,29 @@
     </div>
   </section>
 
-  <!--https://blog.hubspot.com/website/website-footer-->
-  <!--https://webdesign.tutsplus.com/tutorials/how-to-build-a-responsive-multi-level-sticky-footer-with-flexbox--cms-33341-->
-
   <footer class="footer">
     <div class="footer-section">
       <h4>Keep up to date with us on Social Media!</h4>
       <ul class="social-icons">
         <li><a href="https://www.facebook.com/" target="_blank" rel="noopener"
-            aria-label="Visit our Facebook Page (opens in a new tab)"><i class="fab fa-facebook" alt="Facebook"></i></a>
+            aria-label="Visit our Facebook Page (opens in a new tab)"><i class="fab fa-facebook"></i></a>
         </li>
         <li><a href="https://www.instagram.com/" target="_blank" rel="noopener"
-            aria-label="Visit our Instagram Page (opens in a new tab)"><i class="fab fa-instagram"
-              alt="Instagram"></i></a></li>
+            aria-label="Visit our Instagram Page (opens in a new tab)"><i class="fab fa-instagram"></i></a></li>
         <li><a href="https://twitter.com/" target="_blank" rel="noopener"
-            aria-label="Visit our Twitter Page (opens in a new tab)"><i class="fab fa-twitter" alt="Twitter"></i></a>
+            aria-label="Visit our Twitter Page (opens in a new tab)"><i class="fab fa-twitter"></i></a>
         </li>
         <li><a href="https://www.linkedin.com/" target="_blank" rel="noopener"
-            aria-label="Visit our LinkedIn Page (opens in a new tab)"><i class="fab fa-linkedin" alt="LinkedIn"></i></a>
+            aria-label="Visit our LinkedIn Page (opens in a new tab)"><i class="fab fa-linkedin"></i></a>
         </li>
         <li><a href="https://www.youtube.com/" target="_blank" rel="noopener"
-            aria-label="Visit our YouTube Page (opens in a new tab)"><i class="fab fa-youtube" alt="YouTube"></i></a>
+            aria-label="Visit our YouTube Page (opens in a new tab)"><i class="fab fa-youtube"></i></a>
         </li>
         <li><a href="https://github.com/Anthony-Murray" target="_blank" rel="noopener"
-            aria-label="Visit our YouTube Page (opens in a new tab)"><i class="fab fa-github" alt="GitHub"></i></a></li>
+            aria-label="Visit our YouTube Page (opens in a new tab)"><i class="fab fa-github"></i></a></li>
       </ul>
     </div>
   </footer>
-  <!-- Font Awesome -->
   <script src="https://kit.fontawesome.com/847cb20f9b.js" crossorigin="anonymous"></script>
 </body>
 

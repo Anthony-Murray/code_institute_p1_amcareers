@@ -9,25 +9,26 @@
   <meta name="keywords" content="AM Careers, Careers, Career, CAO, Career Guidance, Apprenticeships, Graduates" />
   <meta name="author" content="Anthony Murray" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <link rel="icon" href="assets/images/favicon.ico">
+  <link rel="icon" href="assets/images/favicon.ico" />
+  <link rel="preload" href="assets/css/style.css" as="style" />
   <link rel="stylesheet" href="assets/css/style.css" />
   <title>AM Careers</title>
 </head>
 
 <body>
   <header>
-    <!-- Navigation bar designed using flexbox as recommmend during stand up sessions.Due to accesability issues I did will not implement a CSS only solution for a mobile hamburger menu. See the following article  Rescources researched: https://css-tricks.com/snippets/css/a-guide-to-flexbox/; https://stackoverflow.com/questions/47401222/align-logo-on-the-left-and-navigation-links-on-the-right-using-flexbox; https://codepen.io/alvarotrigo/pen/MWEJEWG; https://freshman.tech/flexbox-navbar/-->
     <nav class="primary-nav">
       <div class="logo">
         <a href="index.html">
-          <img src="assets\images\logo2.png" />
+          <img src="assets/images/logo.svg" alt="Logo for AM Careers - Career Guidance website." width="300"
+            height="100">
         </a>
       </div>
       <ul class="primary-nav-links">
-        <li><a href="index.html#services">Services</a></li>
-        <li><a href="index.html#how-it-works">How it works</a></li>
-        <li><a href="index.html#testimonials">Testimonials</a></li>
-        <li><a href="index.html#contact">Contact</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#how-it-works">How it works</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
   </header>
@@ -42,19 +43,26 @@
     </div>
   </section>
 
-  <!--https://blog.hubspot.com/website/website-footer-->
-  <!--https://webdesign.tutsplus.com/tutorials/how-to-build-a-responsive-multi-level-sticky-footer-with-flexbox--cms-33341-->
-
   <footer class="footer">
     <div class="footer-section">
       <h4>Keep up to date with us on Social Media!</h4>
       <ul class="social-icons">
-        <li><a href="#"><i class="fab fa-facebook" aria-label="Facebook"></i></a></li>
-        <li><a href="#"><i class="fab fa-twitter" aria-label="Twitter"></i></a></li>
-        <li><a href="#"><i class="fab fa-instagram" aria-label="Instagram"></i></a></li>
-        <li><a href="#"><i class="fab fa-linkedin" aria-label="LinkedIn"></i></a></li>
-        <li><a href="#"><i class="fab fa-youtube" aria-label="YouTube"></i></a></li>
-        <li><a href="#"><i class="fab fa-github" aria-label="Github"></i></a></li>
+        <li><a href="https://www.facebook.com/" target="_blank" rel="noopener"
+            aria-label="Visit our Facebook Page (opens in a new tab)"><i class="fab fa-facebook"></i></a>
+        </li>
+        <li><a href="https://www.instagram.com/" target="_blank" rel="noopener"
+            aria-label="Visit our Instagram Page (opens in a new tab)"><i class="fab fa-instagram"></i></a></li>
+        <li><a href="https://twitter.com/" target="_blank" rel="noopener"
+            aria-label="Visit our Twitter Page (opens in a new tab)"><i class="fab fa-twitter"></i></a>
+        </li>
+        <li><a href="https://www.linkedin.com/" target="_blank" rel="noopener"
+            aria-label="Visit our LinkedIn Page (opens in a new tab)"><i class="fab fa-linkedin"></i></a>
+        </li>
+        <li><a href="https://www.youtube.com/" target="_blank" rel="noopener"
+            aria-label="Visit our YouTube Page (opens in a new tab)"><i class="fab fa-youtube"></i></a>
+        </li>
+        <li><a href="https://github.com/Anthony-Murray" target="_blank" rel="noopener"
+            aria-label="Visit our YouTube Page (opens in a new tab)"><i class="fab fa-github"></i></a></li>
       </ul>
     </div>
   </footer>

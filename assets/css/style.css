@@ -226,6 +226,11 @@ h2 {
   width: 100%;
 }
 
+iframe {
+  height: 100%;
+}
+
+
 /* Section 4 - Testimonials */
 
 .testimonials {

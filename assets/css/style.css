@@ -1,11 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&family=Source+Sans+3:ital,wght@0,400;1,300&display=swap');
 
+
+/* CSS reset */
 * {
   margin: 0;
   padding: 0;
   border: none;
   box-sizing: border-box;
 }
+
+
+/* Global */
 
 body {
   font-family: 'Source Sans 3', sans-serif;
@@ -66,9 +71,11 @@ h2 {
 
 /* Navigation Menu (not responsive) text clipping at 724px */
 
+/*https: //support.mozilla.org/en-US/questions/1209125 had to add explicit width to logo img for Firefox*/
+
 .logo img {
   height: auto;
-  width: 100%;
+  width: 300px;
 }
 
 .primary-nav {
@@ -226,8 +233,11 @@ h2 {
   width: 100%;
 }
 
+/*-- https: //support.mozilla.org/en-US/questions/1209125 had to add explicit width to logo img / iframes for Firefox--*/
+
 iframe {
-  height: 100%;
+  width: 560px;
+  height: 315px;
 }
 
 

@@ -2,7 +2,7 @@
 # AM Careers
 (Developer: Anthony Murray)
 
-![Mock Up](assets\docs\amcareers.png)
+![Mock Up](assets/docs/amcareers.png)
 
 [Live Site](https://anthony-murray.github.io/code_institute_p1_amcareers/)
 
@@ -230,7 +230,7 @@ These combinations were tested using [WebAIM's Contrast Checker tool](https://we
 
   
 
-![Colour scheme](assets\docs\color_palette.png)
+![Colour scheme](assets/docs/color_palette.png)
 
   
 
@@ -270,12 +270,12 @@ I used Adobe XD to create my wireframes. I created wireframes for mobile and des
 
 #### Desktop Wireframe
 
-![Desktop Version](assets/images/Desktop-Version.webp)
+![Desktop Version](assets/docs/Desktop_Version.webp)
 
 #### Mobile Wireframe
 
-![Mobile Version](assets/images/Mobile-Version.webp)
-
+![Mobile Version](assets/docs/Mobile_Version.webp)
+/
   
 
 ## Technologies Used
@@ -354,7 +354,7 @@ The website consists of three pages in total, an index page, a form confirmation
 
 - navigation links are highlighted when hovered over.
 
-![Logo and navbar](assets\docs\nav_menus.png)
+![Logo and navbar](assets/docs/nav_menus.png)
 
   
 
@@ -368,7 +368,7 @@ The website consists of three pages in total, an index page, a form confirmation
 
   
 
-![Hero Section](assets\docs\hero.png)
+![Hero Section](assets/docs/hero.png)
 
   
 
@@ -378,7 +378,7 @@ The website consists of three pages in total, an index page, a form confirmation
 
   
 
-![Services Section](assets\docs\services.png)
+![Services Section](assets/docs/services.png)
 
   
 
@@ -390,7 +390,7 @@ The website consists of three pages in total, an index page, a form confirmation
 
   
 
-![How It Works Section](assets\docs\how_it_works.png)
+![How It Works Section](assets/docs/how_it_works.png)
 
   
 
@@ -400,7 +400,7 @@ The website consists of three pages in total, an index page, a form confirmation
 
   
 
-![Client Testimonials](assets\docs\testimonials.png)
+![Client Testimonials](assets/docs/testimonials.png)
 
   
 
@@ -426,7 +426,7 @@ The website consists of three pages in total, an index page, a form confirmation
 
   
 
-![Footer Section](assets\docs\Footer.png)
+![Footer Section](assets/docs/Footer.png)
 
   
 
@@ -440,7 +440,7 @@ The website consists of three pages in total, an index page, a form confirmation
 
   
 
-![Form Submission Confirmation](assets\docs\form_submission.png)
+![Form Submission Confirmation](assets/docs/form_submission.png)
 
   
 
@@ -534,13 +534,13 @@ Google Lighthouse in Google's Chrome Developer Tools was used in ingconito mode 
 
 <details><summary>Mobile</summary>
 
-<img  src="assets\docs\index_mobile_lighthouse.png">
+<img  src="assets/docs/index_mobile_lighthouse.png">
 
 </details>
 
 <details><summary>Desktop</summary>
 
-<img  src="assets\docs\index_desktop_lighthouse.png">
+<img  src="assets/docs/index_desktop_lighthouse.png">
 
 </details>
 
@@ -550,13 +550,13 @@ Google Lighthouse in Google's Chrome Developer Tools was used in ingconito mode 
 
 <details><summary>Mobile</summary>
 
-<img  src="assets\docs\form_mobile_lighthouse.png">
+<img  src="assets/docs/form_mobile_lighthouse.png">
 
 </details>
 
 <details><summary>Desktop</summary>
 
-<img  src="assets\docs\form_desktop_lighthouse.png">
+<img  src="assets/docs/form_desktop_lighthouse.png">
 
 </details>
 
@@ -566,13 +566,13 @@ Google Lighthouse in Google's Chrome Developer Tools was used in ingconito mode 
 
 <details><summary>Mobile</summary>
 
-<img  src="assets\docs\404_mobile_lighthouse.png">
+<img  src="assets/docs/404_mobile_lighthouse.png">
 
 </details>
 
 <details><summary>Desktop</summary>
 
-<img  src="assets\docs\404_desktop_lighthouse.png">
+<img  src="assets/docs/404_desktop_lighthouse.png">
 
 </details>
 

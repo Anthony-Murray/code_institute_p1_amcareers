@@ -454,7 +454,7 @@ The website consists of three pages in total, an index page, a form confirmation
 
   
 
-![404 Page](docs/features/404-page.webp)
+![404 Page](assets/docs/404.png)
 
   
 

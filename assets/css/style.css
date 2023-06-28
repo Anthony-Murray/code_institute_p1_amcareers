@@ -369,6 +369,13 @@ iframe {
   text-align: center;
 }
 
+.copyright {
+  color: #ffffff;
+  text-align: center;
+  padding: 1rem;
+
+}
+
 /*404 Page*/
 .error-404 {
   background-color: #F0F0F0;

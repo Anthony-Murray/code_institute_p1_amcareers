@@ -10,7 +10,7 @@
 }
 
 
-/* Global */
+/* Global Styles*/
 
 body {
   font-family: 'Source Sans 3', sans-serif;
@@ -69,10 +69,6 @@ h2 {
 
 /*Header*/
 
-/* Navigation Menu (not responsive) text clipping at 724px */
-
-/*https: //support.mozilla.org/en-US/questions/1209125 had to add explicit width to logo img for Firefox*/
-
 .logo img {
   height: auto;
   width: 300px;
@@ -95,9 +91,6 @@ h2 {
 }
 
 .primary-nav-links>li {
-
-  /*removed overflow: hidden;*/
-
   margin: 0 1rem;
 }
 
@@ -159,8 +152,6 @@ h2 {
 
 /* Section 2 - Services Content */
 
-/*https: //wpengine.com/resources/combine-flexbox-and-css-grids-for-layouts-how-to/; https: //codepen.io/jensimmons/pen/LyrNqJ?editors=1100*/
-
 .services {
   background-color: #ffffff;
 }
@@ -185,8 +176,6 @@ h2 {
   height: auto;
   width: 100%;
 }
-
-/*https: //www.w3schools.com/cssref/pr_list-style-position.php*/
 
 .service-card ul {
   list-style: none;
@@ -226,14 +215,12 @@ h2 {
   margin-bottom: 0.5rem;
 }
 
-/*--https: //benmarshall.me/responsive-iframes/ Video grid was making steps grid text over flow--*/
 
 .responsive-iframe {
   aspect-ratio: 16/9;
   width: 100%;
 }
 
-/*-- https: //support.mozilla.org/en-US/questions/1209125 had to add explicit width to logo img / iframes for Firefox--*/
 
 iframe {
   width: 560px;
@@ -257,8 +244,6 @@ iframe {
   text-align: center;
 }
 
-
-/*love running circle*/
 
 .testimonial img {
   width: 150px;
@@ -301,7 +286,6 @@ iframe {
   margin-bottom: 1rem;
 }
 
-/*https: //stackoverflow.com/questions/16907518/css-input-with-width-100-goes-outside-parents-bound Form input fields are extending beyond the container*/
 
 .form-container {
   background-color: #ffffff;
@@ -402,7 +386,7 @@ iframe {
 
 }
 
-/*404 Page*/
+/*Form Confirmation*/
 .form-confirmation {
   background-color: #F0F0F0;
   text-align: center;

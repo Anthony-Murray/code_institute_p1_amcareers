@@ -90,9 +90,9 @@ The goals of this website include:
 
 - Build brand awareness
 
-- Build trust in potential clients by communicating the expertise, experience and previous client succes stories of the career guidance consultant
+- Build trust in potential clients by communicating the expertise, experience and previous client success stories of the career guidance consultant
 
-- Design a fast, accesible, SEO-optimised website with compelling content that answers the searcher’s query whilst focusing on the user experience to increase our organic search visibility
+- Design a fast, accessible, SEO-optimized website with compelling content that answers the searcher’s query whilst focusing on the user experience to increase our organic search visibility
 
   
 
@@ -126,7 +126,7 @@ The goals of this website include:
 
 - A professional, simple, clear design
 
-- Easy naviagation regardless of device
+- Easy navigation regardless of device
 
 - A responsive website
 
@@ -140,7 +140,7 @@ The goals of this website include:
 
 ### User Stories
 
-I have divided my user stories into prospective customers, returning customers and business owener as each of these users will have a distinct set of needs and goals.
+I have divided my user stories into prospective customers, returning customers and business owner as each of these users will have a distinct set of needs and goals.
 
   
 
@@ -156,13 +156,13 @@ Need to look for evidence in the form of testimonials to understand what previou
 
 Need evidence or social proof by being able to engage with social media links to see their followings on social media.
 
-Need the ability to contact the consultantto to submit queries or further informatiostion requests (without feeling like they are committing to purchasing).
+Need the ability to contact the consultant to submit queries or further information requests (without feeling like they are committing to purchasing).
 
 Need the ability to be able to schedule an appointment.
 
 Need the ability to be able to contact the consultant through multiple channels (email, phone etc.)
 
-Need condimration that see a confirmation that my contact form has been submitted and be able to navigate back to the main site.
+Need confirmation that see a confirmation that my contact form has been submitted and be able to navigate back to the main site.
 
   
 
@@ -170,9 +170,9 @@ Need condimration that see a confirmation that my contact form has been submitte
 
   
 
-As an existing customer, I want to locate the consultant's contact details or reach out to them directly through the website so I can request assistance, refer to other poptental clients, see additional services offered.
+As an existing customer, I want to locate the consultant's contact details or reach out to them directly through the website so I can request assistance, refer to other potential clients, see additional services offered.
 
-As an existing customer, I need condimration that see a confirmation that my contact form has been submitted and be able to navigate back to the main site.
+As an existing customer, I need confirmation that see a confirmation that my contact form has been submitted and be able to navigate back to the main site.
 
   
 
@@ -198,21 +198,15 @@ As the business owner, I want to make sure users are directed back to the index 
 
 ### Design Choices
 
-I researched other careers education / consultancy websites to for inspiration focusing on find a professional, responsive and clean layouts that aligned to my own vision. I based my site design on the layout of [The Code Insititutes](https://codeinstitute.net/ie/) website. Although there are some examples of career coaching websites most (in my oponion) are pporly designed.
+I researched other careers education / consultancy websites for inspiration focusing on finding a professional, responsive and clean layouts that aligned to my own vision. I based my site design on the layout of [The Code Insititutes](https://codeinstitute.net/ie/) website. Although there are some examples of career coaching websites most (in my opinion) are poorly designed.
 
-  
+Engaging with parents to grab their attention needs to be done quickly. The imagery used on the site was chosen to grab their attention focusing on teenagers contemplating. The hero section includes a picture of the consultant to provide proof and early evidence that there is a face behind the brand.
 
-Engaging with parents to grab their attention needs to be done quickly. The imagery used on the site was chosen to grab their attention focusing on teenagers contempleating. The hero section includes a picture of the consultant to proivide proof and early evidence that there is a face behind the brand.
-
-  
-
-At the wireframing stage I decided to adopt a mobile first approach after reading this excellent article on [Browser Stack.](https://www.browserstack.com/guide/how-to-implement-mobile-first-design)
-
-  
+At the wire-framing stage I decided to adopt a mobile first approach after reading this excellent article on [Browser Stack.](https://www.browserstack.com/guide/how-to-implement-mobile-first-design)
 
 ### Colours
 
-Colour psychology plays an important role in webdesign. In choosing a colour combination I decided on blue and white on reading of the following article on [Medium.com](https://medium.com/@bloominari/color-psychology-in-web-design-f60656b8f313). Recognising the importance of having a AAA compliant palette as recommended by the WCAG I choose #1b365d as the base colour as recommended here by the [University of Sussex](http://www.sussex.ac.uk/tel/resource/tel_website/accessiblecontrast/?q=FFFFFF~003b49~1d4289~94a596~e56db1~d3273e~00bfb2~d6d2c4~ffc845~dc582a~41b6e6~1b365d~be84a3~5d3754~7da1c4~f2c75c~d0d3d4~007a78~000000)
+Colour psychology plays an important role in web-design. In choosing a colour combination I decided on blue and white on reading of the following article on [Medium.com](https://medium.com/@bloominari/color-psychology-in-web-design-f60656b8f313). Recognising the importance of having a AAA compliant palette as recommended by the WCAG I choose #1b365d as the base colour as recommended here by the [University of Sussex](http://www.sussex.ac.uk/tel/resource/tel_website/accessiblecontrast/?q=FFFFFF~003b49~1d4289~94a596~e56db1~d3273e~00bfb2~d6d2c4~ffc845~dc582a~41b6e6~1b365d~be84a3~5d3754~7da1c4~f2c75c~d0d3d4~007a78~000000)
 
   
 
@@ -252,7 +246,7 @@ The primary website follows a one-page design divided into unique sections. The 
 
 - A header section containing the business logo and responsive navigation menu.
 
-- A hero section containing a description and image to convey the purpose of the site. An image of the consultant is used to build trust with the visitor. A call to action button is included to encourage the user to contact for a free 15 minute consulation which directs to the contact form.
+- A hero section containing a description and image to convey the purpose of the site. An image of the consultant is used to build trust with the visitor. A call to action button is included to encourage the user to contact for a free 15 minute consultation which directs to the contact form.
 
 - A services section to provide brief descriptions of the services the consultant provides and a call to action button to encourage the user to contact the consultant for a no obligation consultation which directs to the contact form.
 
@@ -298,7 +292,7 @@ I used Adobe XD to create my wireframes. I created wireframes for mobile and des
 
 -  [VSCode](https://code.visualstudio.com/)
 
--  [Adope XD](https://www.adobe.com/ie/products/xd.html)
+-  [Adobe XD](https://www.adobe.com/ie/products/xd.html)
 
 -  [Adobe Express](https://www.adobe.com/ie/express)
 
@@ -360,7 +354,7 @@ The website consists of three pages in total, an index page, a form confirmation
 
 ### Hero Section
 
-- A hero section containing a description and image to convey the purpose of the site. An image of the consultant is used to build trust with the visitor. A call to action button is included to encourage the user to contact for a free 15 minute consulation which directs to the contact form.
+- A hero section containing a description and image to convey the purpose of the site. An image of the consultant is used to build trust with the visitor. A call to action button is included to encourage the user to contact for a free 15 minute consultation which directs to the contact form.
 
 - The 404 page contains a link to the home page.
 
@@ -472,7 +466,7 @@ The following features could be implemented in the future to provide users with 
 
 - A chatbot could be added to improve user experience
 
-- A hamburger menu could be added to improve user experience on mobile devices (I tried to implement this through CSS but there were signigcant accseability issues).
+- A hamburger menu could be added to improve user experience on mobile devices (I tried to implement this through CSS but there were significant accessability issues).
 
 - The CTA button on the hero section should have centered on smaller devices. I tried to implement this through CSS but was constrained by time.
 
@@ -526,7 +520,7 @@ The WAVE WebAIM web accessibility evaluation tool was used to ensure the website
 
 ### Performance
 
-Google Lighthouse in Google's Chrome Developer Tools was used in ingconito mode to test the performance of the website. The following pages were tested:
+Google Lighthouse in Google's Chrome Developer Tools was used in incognito mode to test the performance of the website. The following pages were tested:
 
   
 
@@ -584,7 +578,7 @@ The website was tested on the following devices:
 
 - Dell Latitude 5520 Laptop
 
-- Hauwei P10 Pro
+- Huawei P10 Pro
 
 - iPhone 12 Pro Max
 
@@ -646,7 +640,7 @@ Need evidence or social proof by being able to engage with social media links to
 
   
 
-Need the ability to contact the consultantto to submit queries or further information requests (without feeling like they are committing to purchasing).
+Need the ability to contact the consultant to submit queries or further information requests (without feeling like they are committing to purchasing).
 
 Need the ability to be able to schedule an appointment.
 
@@ -658,7 +652,7 @@ Need the ability to be able to contact the consultant through multiple channels 
 
   
 
-Need condimration that see a confirmation that my contact form has been submitted and be able to navigate back to the main site.4
+Need confirmation that see a confirmation that my contact form has been submitted and be able to navigate back to the main site.
 
 - Once contact details have been submitted, the user is redirected to a confirmation page. The user can navigate back to the main site using the navigation bar.
 
@@ -666,7 +660,7 @@ Need condimration that see a confirmation that my contact form has been submitte
 
 #### Existing Customers
 
-As an existing customer, I want to locate the consultant's contact details or reach out to them directly through the website so I can request assistance, refer to other poptental clients, see additional services offered.
+As an existing customer, I want to locate the consultant's contact details or reach out to them directly through the website so I can request assistance, refer to other potential clients, see additional services offered.
 
 As an existing customer, I need condimration that see a confirmation that my contact form has been submitted and be able to navigate back to the main site.
 
@@ -700,7 +694,7 @@ As a business owner, I want users to be able to contact me directly through the 
 
 As the business owner, I want to make sure users are directed back to the index page of the website and do not use their browser's back button should they come across a 404 page not found error.
 
-- The 404 page contains a link to the index page of the website and works on all devices and browsers tested. The link is clearly labelled and works as expected. Furthermore naviation links are available on all pages.
+- The 404 page contains a link to the index page of the website and works on all devices and browsers tested. The link is clearly labelled and works as expected. Furthermore navigation links are available on all pages.
 
   
 
@@ -801,7 +795,7 @@ In order of appearance:
 
 #### Navigation Menu
 
-- Navigation bar designed using flexbox as recommmend during stand up sessions.Due to accesability issues I did will not implement a CSS only solution for a mobile hamburger menu. See the following article https://www.sitepoint.com/community/t/checkbox-hack-and-hiding-the-input-element/378398
+- Navigation bar designed using flexbox as recommended during stand up sessions. Due to accessability issues I did will not implement a CSS only solution for a mobile hamburger menu. See the following article https://www.sitepoint.com/community/t/checkbox-hack-and-hiding-the-input-element/378398
 
 - https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 
@@ -817,7 +811,7 @@ In order of appearance:
 
   
 
-####  Hero Section - Primarliy used CSS grid.
+####   Hero Section - Primarily used CSS grid.
 
 - https://www.freecodecamp.org/news/css-grid-tutorial-with-cheatsheet/
 
@@ -839,7 +833,7 @@ In order of appearance:
 
 - https://css-tricks.com/look-ma-no-media-queries-responsive-layouts-using-css-grid/
 
-####  Services Section - Primarliy used CSS grid / Flex
+####   Services Section - Primarily used CSS grid / Flex
 
 - https://www.w3schools.com/css/css3_flexbox_container.asp
 
@@ -895,7 +889,7 @@ In order of appearance:
 
 - https://webdesign.tutsplus.com/tutorials/how-to-build-a-responsive-multi-level-sticky-footer-with-flexbox--cms-33341
 
-####  Readme File. inspiration was talen from the following projects:
+####   Readme File. inspiration was taken from the following projects:
 
 - https://github.com/4n4ru/CI_MS1_BodelschwingherHof
 

@@ -232,17 +232,14 @@ These combinations were tested using [WebAIM's Contrast Checker tool](https://we
 
 Oswald and Source Sans Pro were selected with the help of the [Font Pair](https://www.fontpair.co/all).
 
-  
 
 Oswald font is used for site headings and Source Sans Pro for the main body text. Both fonts use a sans-serif fallback.
 
-  
 
 ### Structure
 
 The primary website follows a one-page design divided into unique sections. The sections are as follows:
 
-  
 
 - A header section containing the business logo and responsive navigation menu.
 
@@ -269,12 +266,8 @@ I used Adobe XD to create my wireframes. I created wireframes for mobile and des
 #### Mobile Wireframe
 
 ![Mobile Version](assets/docs/Mobile_Version.webp)
-/
   
-
-## Technologies Used
-
-  
+## Technologies Used  
 
 ### Languages
 
@@ -457,7 +450,6 @@ The website consists of three pages in total, an index page, a form confirmation
 The following features could be implemented in the future to provide users with more detailed information and further build prospective client trust through the website:
 
   
-
 - To improve SEO each service could have its own page with more detailed information about the service and the benefits of the service to the client. This would also allow the consultant to target more keywords related to each service.
 
 - A Blog feature could further build trust with prospective clients by allowing the consultant to share articles related to career guidance and coaching. This would also benefit SEO.
@@ -625,20 +617,15 @@ Need to see a list of the services offered by the consultant so they make a deci
 - The services section is clearly visible and works on all devices and browsers tested. The services are clearly labelled and the user can click on the service to be taken to the contact me section where they can submit a query or contact the consultant directly.
 
 - The How it Works section indicates the steps in the process and provide video evidence of the process and platform used. The iframe caused some issues in performance testing but was deemed necessary to provide evidence of the process (see bugs section). The video is clearly labelled and works on all devices and browsers tested.
-
   
-
 Need to look for evidence in the form of testimonials to understand what previous clients experience was and if they are trusted.
 
 - The testimonials section is clearly visible and works on all devices and browsers tested. The testimonials are clearly labelled.
 
-  
 
 Need evidence or social proof by being able to engage with social media links to see their followings on social media.
 
 - The social media links are clearly visible and work on all devices and browsers tested. The links are clearly labelled and work as expected.
-
-  
 
 Need the ability to contact the consultant to submit queries or further information requests (without feeling like they are committing to purchasing).
 
@@ -650,13 +637,11 @@ Need the ability to be able to contact the consultant through multiple channels 
 
 - Further contact information is available in the Contact Me section and works on all devices and browsers tested.
 
-  
 
 Need confirmation that see a confirmation that my contact form has been submitted and be able to navigate back to the main site.
 
 - Once contact details have been submitted, the user is redirected to a confirmation page. The user can navigate back to the main site using the navigation bar.
 
-  
 
 #### Existing Customers
 
@@ -672,11 +657,9 @@ As an existing customer, I need condimration that see a confirmation that my con
 
 - Social media links are clearly visible and work on all devices and browsers tested. The links are clearly labelled and work as expected and are available on all pages
 
-  
 
 #### Business Owner
 
-  
 
 As a business owner, I want users to be able to see what services I offer so that they can determine if they are interested in them.
 
@@ -702,7 +685,7 @@ As the business owner, I want to make sure users are directed back to the index 
 
   
 
-## Known bugs
+## Bugs
 
 - The iframe in the How it Works section caused some issues in performance testing but was deemed necessary to provide evidence of the process. I was unable to use a facade although I tried several different options and resources. I also tried to use a placeholder image but this did not work either. I have included the following resources in my research:
 
@@ -797,6 +780,8 @@ In order of appearance:
 
 - Navigation bar designed using flexbox as recommended during stand up sessions. Due to accessability issues I did will not implement a CSS only solution for a mobile hamburger menu. See the following article https://www.sitepoint.com/community/t/checkbox-hack-and-hiding-the-input-element/378398
 
+- Navigation bar text was clipping on smaller devices. https: //support.mozilla.org/en-US/questions/1209125
+
 - https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 
 - https://stackoverflow.com/questions/4740122 align-logo-on-the-left-and-navigation-links-on-the-right-using-flexbox
@@ -835,6 +820,8 @@ In order of appearance:
 
 ####   Services Section - Primarily used CSS grid / Flex
 
+- Text was overflowing on smaller devices. https://stackoverflow.com/questions/16907518/css-input-with-width-100-goes-outside-parents-bound
+
 - https://www.w3schools.com/css/css3_flexbox_container.asp
 
 - https://flexbox.ninja/demos/same-height-columns/
@@ -848,6 +835,12 @@ In order of appearance:
 - https://uxplanet.org/challenge-005-3-column-preview-card-component-6c9b4e797f98
 
 - https://codepen.io/gregrickaby/pen/pVmgGX
+
+- https://wpengine.com/resources/combine-flexbox-and-css-grids-for-layouts-how-to/
+
+- https://codepen.io/jensimmons/pen/LyrNqJ?editors=1100
+
+- List bullet points appearing outside of container https://www.w3schools.com/cssref/pr_list-style-position.php
 
   
 

@@ -68,7 +68,7 @@ This is the website for a Career Guidance Consultancy. It will provide prospecti
 
 7.  [Testing user stories](#testing-user-stories)
 
-8.  [Bugs](#Bugs)
+8.  [Bugs](#bugs)
 
 9.  [Deployment](#deployment)
 
